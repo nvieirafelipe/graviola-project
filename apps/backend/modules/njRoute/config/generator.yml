@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjRoute
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Route
+    plural:                Routes
+    route_prefix:          nj_route
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Route List
+        display:  [=number, name, description, created_at, updated_at]
+
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -1,0 +1,92 @@
+NjRoute:
+  ##Onibus
+  NjRoute_1:
+    NjTransportMode: NjTransportMode_1
+    number: '1'
+    name: '1 - Rota na Av. Alcantara Machado'
+    description: 'Rota na Av. Alcantara Machado'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'  
+    created_at: '2011-05-01 02:16:01'
+    updated_at: '2011-05-01 02:16:01'
+  NjRoute_2:
+    NjTransportMode: NjTransportMode_1
+    number: '2'
+    name: '2 - Rota na Vd. Carlos Ferraci'
+    description: 'Rota na Vd. Carlos Ferraci'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'  
+    created_at: '2011-05-01 02:16:01'
+    updated_at: '2011-05-01 02:16:01'
+  NjRoute_5:
+    NjTransportMode: NjTransportMode_1
+    number: '5'
+    name: '5 - PUCC'
+    description: 'PUCC'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'  
+    created_at: '2011-05-01 02:16:01'
+    updated_at: '2011-05-01 02:16:01'
+  NjRoute_6:
+    NjTransportMode: NjTransportMode_1
+    number: '6'
+    name: '6 - Congonhas - Estadio Morumbi - Onibus'
+    description: 'Congonhas - Esdadio Morumbi - Onibus'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-10-22 15:46:01'
+    updated_at: '2011-10-22 15:46:01'
+  NjRoute_7:
+    NjTransportMode: NjTransportMode_1
+    number: '7'
+    name: '7 - Cumbica - Morumbi -  Onibus'
+    description: 'Cumbica - Morumbi -  Onibus'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-10-22 15:46:01'
+    updated_at: '2011-10-22 15:46:01'
+  NjRoute_8:
+    NjTransportMode: NjTransportMode_1
+    number: '8'
+    name: '8 - Cumbica - Anhembi - Onibus'
+    description: 'Cumbica - Anhembi - Onibus'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-10-22 15:46:01'
+    updated_at: '2011-10-22 15:46:01'
+  NjRoute_9:
+    NjTransportMode: NjTransportMode_1
+    number: '9'
+    name: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    description: 'Terminal Tiete - Parque Ibirapuera - Onibus'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-10-22 15:46:01'
+    updated_at: '2011-10-22 15:46:01'
+  NjRoute_10:
+    NjTransportMode: NjTransportMode_1
+    number: '10'
+    name: '10 - Terminal Tiete - Congonhas - Onibus'
+    description: 'Terminal Tiete - Congonhas - Onibus'
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-10-22 15:46:01'
+    updated_at: '2011-10-22 15:46:01'
+  ##Metro
+  NjRoute_11:
+    NjTransportMode: NjTransportMode_2
+    number: '11'
+    name: '11 - Metro L1 Azul'
+    description: ''
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-11-22 15:46:01'
+    updated_at: '2011-11-22 15:46:01'
+  NjRoute_12:
+    NjTransportMode: NjTransportMode_2
+    number: '12'
+    name: '12 - Metro L3 Vermelho'
+    description: ''
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-11-22 15:46:01'
+    updated_at: '2011-11-22 15:46:01'
+  ##Trem
+  NjRoute_13:
+    NjTransportMode: NjTransportMode_3
+    number: '13'
+    name: '13 - Trem CPTM L10'
+    description: ''
+    detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum dictum dolor, eget pretium lorem ullamcorper at.'
+    created_at: '2011-11-22 15:46:01'
+    updated_at: '2011-11-22 15:46:01'

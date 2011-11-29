@@ -1,0 +1,179 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# Api Rules
+api_maps:
+  url:    /api/maps
+  param:  { module: njApi, action: maps }
+
+api_transport_filter:
+  url:     /api/transport-filter.json
+  param:   { module: njApi, action: transportFilter }
+
+api_login:
+  url:     /api/login.json
+  class: sfRequestRoute
+  param:   { module: njApi, action: login }
+  requirements: { sf_method: post }
+
+
+
+# Routes Rules
+nj_route_subscribe: 
+  url:  /routes/subscribe
+  param: { module: njRoute, action: subscribe }
+
+nj_route_unsubscribe: 
+  url:  /routes/unsubscribe
+  param: { module: njRoute, action: unsubscribe }
+
+nj_route_filter: 
+  url:  /routes/filter
+  param: { module: njRoute, action: filter }
+  
+nj_route_show:
+  url:   /routes/show
+  param: { module: njRoute, action: show }
+
+nj_search_route:
+  url:   /routes
+  param: { module: njRoute, action: index }
+
+  
+
+# No Jam Rules
+nj_stops_json:
+  url:   /routes/stops.json
+  param: { module: njRoute, action: stops }
+
+nj_route_json:
+  url:   /*/routes/route.json
+  param: { module: njRoute, action: route }
+
+pass_get_movement:
+  url:  /pass-movement
+  param: { module: pass, action: getPassMovement}
+
+nj_transport_from_route:
+  url:   /load-transports/:route_id
+  param: { module: njRoute, action: transportsFromRoute }
+
+nj_transport_current_position:
+  url:  /get-transport-position/:transport_id/:route_id/:index_array
+  param: { module: njRoute, action: getTransportCurrentPosition }
+  
+nj_dashboard:
+  url:   /dashboard
+  param: { module: njDashboard, action: index }
+    
+
+
+# gravila - Sections
+main:
+  url:   /
+  param: { module: main, action: index }
+
+transport:
+  url:   /transports
+  param: { module: njTransport, action: index }
+
+panel_control:
+  url:   /panel-controls
+  param: { module: njPanelControl, action: index }
+
+access_control:
+  url:   /access-controls
+  param: { module: njAccessControl, action: index }
+
+app_config:
+  url:   /app-config
+  param: { module: njAppConfig, action: index }
+
+
+
+# njUserProfile
+nj_user_profile_show:
+  url:  /profile/show/:id
+  class:    sfDoctrineRoute
+  param: { module: njUserProfile, action: show }
+  options:  { model: NjUserProfile, type: object }
+
+nj_user_profile_edit:
+  url:  /profile/edit/:id
+  class:    sfDoctrineRoute
+  param: { module: njUserProfile, action: edit }
+  options:  { model: NjUserProfile, type: object }
+
+nj_user_profile_create:
+  url:  /profile/create
+  param: { module: njUserProfile, action: create }
+
+nj_user_profile_update:
+  url:  /profile/update
+  param: { module: njUserProfile, action: update }
+
+
+
+# sfGuard rules
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_register:
+  url:   /register
+  param: { module: sfGuardRegister, action: register }
+
+sf_guard_update-profile:
+  url:  /update-profile
+  param: { module: sfGuardRegister, action: edit }
+
+sf_guard_forgot_password:
+  url:   /forgot-password
+  param: { module: sfGuardForgotPassword, action: index }
+
+
+
+# frontend rules
+backend:
+  url:   ./backend.php
+  param: { module: main, action: index }
+
+termAndConditions:
+  url:   /terms-and-conditions
+  param: { module: main, action: termAndConditions }
+
+privacyStatement:
+  url:   /privacy-statement
+  param: { module: main, action: privacyStatement }
+
+advertise:
+  url:   /advertise
+  param: { module: main, action: advertise }
+
+about:
+  url:   /about
+  param: { module: main, action: about }
+
+contact:
+  url:   /contact
+  param: { module: main, action: contact }
+
+
+
+# default rules
+homepage:
+  url:   /
+  param: { module: main, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+
+#default:
+#  url:   /:module/:action/*

@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjTransportMode
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              TransportMode
+    plural:                TransportModes
+    route_prefix:          nj_transport_mode
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Transport Type List
+        display:  [=description, detail, created_at, updated_at]
+
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

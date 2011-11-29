@@ -1,0 +1,16 @@
+NjTransportMode:
+  NjTransportMode_1:
+    description: 'Bus vehicle type'
+    detail: 'Bus'
+    created_at: '2011-10-24 15:25:45'
+    updated_at: '2011-10-24 15:25:45'
+  NjTransportMode_2:
+    description: 'Metro vehicle type'
+    detail: 'Metro'
+    created_at: '2011-10-24 15:25:45'
+    updated_at: '2011-10-24 15:25:45'
+  NjTransportMode_3:
+    description: 'Train vehicle type'
+    detail: 'Train'
+    created_at: '2011-10-24 15:25:45'
+    updated_at: '2011-10-24 15:25:45'

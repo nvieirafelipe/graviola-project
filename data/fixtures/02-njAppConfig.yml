@@ -1,0 +1,239 @@
+NjLoginGroupRouting:
+  NjLoginGroupRouting_1:
+    sfGuardGroup: sfGuardGroup_2
+    routing: '@homepage'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 21:55:21'
+  NjLoginGroupRouting_2:
+    sfGuardGroup: sfGuardGroup_1
+    routing: '@backend'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 21:55:21'
+  NjLoginGroupRouting_3:
+    sfGuardGroup: sfGuardGroup_4
+    routing: '@backend'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 21:55:21'
+  NjLoginGroupRouting_4:
+    sfGuardGroup: sfGuardGroup_5
+    routing: '@backend'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 21:55:21'
+NjMenuItemRouting:
+  NjMenuItemRouting_1:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '1'
+    description: 'Search route'
+    detail: 'Search routes using the map'
+    routing: '@nj_search_route'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-06-21 22:49:00'
+  NjMenuItemRouting_2:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '1'
+    description: 'Manage routes'
+    detail: 'manage routes registered in the system'
+    routing: '@nj_route'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-06-21 22:20:18'
+  NjMenuItemRouting_3:
+    NjSectionRouting: NjSectionRouting_4
+    menu_order: '1'
+    description: 'Manage users'
+    detail: 'Manage users registered in the system'
+    routing: '@sf_guard_user'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 22:21:05'
+  NjMenuItemRouting_4:
+    NjSectionRouting: NjSectionRouting_4
+    menu_order: '2'
+    description: 'Manage groups'
+    detail: 'Manage groups registered in the system'
+    routing: '@sf_guard_group'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 22:21:47'
+  NjMenuItemRouting_5:
+    NjSectionRouting: NjSectionRouting_4
+    menu_order: '3'
+    description: 'Manage permissions'
+    detail: 'Manage permissions registered in the system.'
+    routing: '@sf_guard_permission'
+    created_at: '2011-06-21 21:55:21'
+    updated_at: '2011-06-21 22:22:12'
+  NjMenuItemRouting_6:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '2'
+    description: 'Manage trips'
+    detail: 'manage trips registered in the system'
+    routing: '@nj_trip'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-06-21 22:20:18'
+  NjMenuItemRouting_7:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '3'
+    description: 'Manage stops'
+    detail: 'manage stops registered in the system'
+    routing: '@nj_stop'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-06-21 22:20:18'
+  NjMenuItemRouting_8:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '6'
+    description: 'Manage calendars'
+    detail: 'Manage calendars registered in the system'
+    routing: '@nj_calendar'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-10-24 21:17:03'
+  NjMenuItemRouting_9:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '4'
+    description: 'Manage vehicles'
+    detail: 'manage vehicles registered in the system'
+    routing: '@nj_vehicle'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-06-21 22:20:18'
+  NjMenuItemRouting_10:
+    NjSectionRouting: NjSectionRouting_3
+    menu_order: '3'
+    description: 'Manage notifications'
+    detail: 'manage Notification registered in the system'
+    routing: '@nj_notification'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-10-26 20:12:13'
+  NjMenuItemRouting_11:
+    NjSectionRouting: NjSectionRouting_3
+    menu_order: '4'
+    description: 'Manage notification type'
+    detail: 'manage Notification Type registered in the system'
+    routing: '@nj_notification_type'
+    created_at: '2011-06-21 21:55:20'
+    updated_at: '2011-10-26 20:12:24'
+  NjMenuItemRouting_12:
+    NjSectionRouting: NjSectionRouting_3
+    menu_order: '2'
+    description: 'See reports'
+    detail: 'See reports of data registered in the system.'
+    routing: '@nj_report'
+    created_at: '2011-06-21 22:45:41'
+    updated_at: '2011-10-26 20:11:59'
+  NjMenuItemRouting_13:
+    NjSectionRouting: NjSectionRouting_1
+    menu_order: '5'
+    description: 'Manage transport mode'
+    detail: 'Manage transport modes registered in the system'
+    routing: '@nj_transport_mode'
+    created_at: '2011-10-24 21:16:24'
+    updated_at: '2011-10-24 21:17:30'
+  NjMenuItemRouting_14:
+    NjSectionRouting: NjSectionRouting_3
+    menu_order: '1'
+    description: 'See dashboard'
+    detail: ''
+    routing: '@nj_dashboard'
+    created_at: '2011-10-26 20:10:28'
+    updated_at: '2011-10-26 20:10:28'
+NjPermissionMenuItemRouting:
+  NjPermissionMenuItemRouting_1_1:
+    NjMenuItemRouting: NjMenuItemRouting_1
+    sfGuardPermission: sfGuardPermission_1
+    created_at: '2011-06-21 22:19:49'
+    updated_at: '2011-06-21 22:19:49'
+  NjPermissionMenuItemRouting_1_3:
+    NjMenuItemRouting: NjMenuItemRouting_1
+    sfGuardPermission: sfGuardPermission_3
+    created_at: '2011-06-21 22:19:49'
+    updated_at: '2011-06-21 22:19:49'
+  NjPermissionMenuItemRouting_2_8:
+    NjMenuItemRouting: NjMenuItemRouting_2
+    sfGuardPermission: sfGuardPermission_8
+    created_at: '2011-06-21 22:20:18'
+    updated_at: '2011-06-21 22:20:18'
+  NjPermissionMenuItemRouting_3_6:
+    NjMenuItemRouting: NjMenuItemRouting_3
+    sfGuardPermission: sfGuardPermission_6
+    created_at: '2011-06-21 22:21:05'
+    updated_at: '2011-06-21 22:21:05'
+  NjPermissionMenuItemRouting_4_4:
+    NjMenuItemRouting: NjMenuItemRouting_4
+    sfGuardPermission: sfGuardPermission_4
+    created_at: '2011-06-21 22:21:47'
+    updated_at: '2011-06-21 22:21:47'
+  NjPermissionMenuItemRouting_5_5:
+    NjMenuItemRouting: NjMenuItemRouting_5
+    sfGuardPermission: sfGuardPermission_5
+    created_at: '2011-06-21 22:22:12'
+    updated_at: '2011-06-21 22:22:12'
+  NjPermissionMenuItemRouting_6_9:
+    NjMenuItemRouting: NjMenuItemRouting_6
+    sfGuardPermission: sfGuardPermission_9
+    created_at: '2011-06-21 22:31:32'
+    updated_at: '2011-06-21 22:31:32'
+  NjPermissionMenuItemRouting_7_11:
+    NjMenuItemRouting: NjMenuItemRouting_7
+    sfGuardPermission: sfGuardPermission_11
+    created_at: '2011-06-21 22:31:32'
+    updated_at: '2011-06-21 22:31:32'
+  NjPermissionMenuItemRouting_8_10:
+    NjMenuItemRouting: NjMenuItemRouting_8
+    sfGuardPermission: sfGuardPermission_10
+    created_at: '2011-06-21 22:31:32'
+    updated_at: '2011-06-21 22:31:32'
+  NjPermissionMenuItemRouting_9_12:
+    NjMenuItemRouting: NjMenuItemRouting_9
+    sfGuardPermission: sfGuardPermission_12
+    created_at: '2011-08-29 22:45:41'
+    updated_at: '2011-08-29 22:45:41'
+  NjPermissionMenuItemRouting_10_14:
+    NjMenuItemRouting: NjMenuItemRouting_10
+    sfGuardPermission: sfGuardPermission_14
+    created_at: '2011-08-29 22:45:41'
+    updated_at: '2011-08-29 22:45:41'
+  NjPermissionMenuItemRouting_11_15:
+    NjMenuItemRouting: NjMenuItemRouting_11
+    sfGuardPermission: sfGuardPermission_15
+    created_at: '2011-08-29 22:45:41'
+    updated_at: '2011-08-29 22:45:41'
+  NjPermissionMenuItemRouting_12_7:
+    NjMenuItemRouting: NjMenuItemRouting_12
+    sfGuardPermission: sfGuardPermission_7
+    created_at: '2011-08-29 22:45:41'
+    updated_at: '2011-08-29 22:45:41'
+  NjPermissionMenuItemRouting_13_8:
+    NjMenuItemRouting: NjMenuItemRouting_13
+    sfGuardPermission: sfGuardPermission_8
+    created_at: '2011-10-24 21:16:24'
+    updated_at: '2011-10-24 21:16:24'
+  NjPermissionMenuItemRouting_14_16:
+    NjMenuItemRouting: NjMenuItemRouting_14
+    sfGuardPermission: sfGuardPermission_16
+    created_at: '2011-10-26 20:11:35'
+    updated_at: '2011-10-26 20:11:35'
+NjSectionRouting:
+  NjSectionRouting_1:
+    menu_order: '2'
+    description: Transports
+    detail: 'Section for transports'
+    routing: '@transport'
+    created_at: '2011-06-21 22:16:59'
+    updated_at: '2011-06-21 22:17:42'
+  NjSectionRouting_2:
+    menu_order: '1'
+    description: Home
+    detail: 'Section for home'
+    routing: '@main'
+    created_at: '2011-06-21 22:17:27'
+    updated_at: '2011-06-21 22:17:27'
+  NjSectionRouting_3:
+    menu_order: '3'
+    description: 'Panel Control'
+    detail: 'Section for access Panel control'
+    routing: '@panel_control'
+    created_at: '2011-06-21 22:18:10'
+    updated_at: '2011-06-21 22:18:10'
+  NjSectionRouting_4:
+    menu_order: '4'
+    description: 'Access Control'
+    detail: 'Section for access control'
+    routing: '@access_control'
+    created_at: '2011-06-21 22:18:10'
+    updated_at: '2011-06-21 22:18:10'

@@ -1,0 +1,91 @@
+NjNotification:
+  NjNotification_1:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Car accident with victim, occurred by a collision between an car and a motorcycle, traffic is very slow.'
+    NjRoute: NjRoute_5
+    NjTrip: NjTrip_1
+    NjStopTime: NjStopTime_1
+    average_speed: '30.00'
+    time_delay: '00:20:00'
+    created_at: '2011-09-20 23:44:22'
+    updated_at: '2011-09-20 23:44:22'
+  NjNotification_2:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Accident between two cars leaves 5 injured. The traffic goes slowly on Rodovia Helio Smidt.'
+    NjRoute: NjRoute_8
+    NjTrip: NjTrip_13
+    NjStopTime: NjStopTime_13
+    average_speed: '10.00'
+    time_delay: '00:40:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_3:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Marginal Tiete Accident causes congestion of at least 10 kilometers'
+    NjRoute: NjRoute_9
+    NjTrip: NjTrip_17
+    NjStopTime: NjStopTime_54
+    average_speed: '10.00'
+    time_delay: '00:30:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_4:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Arrival of the Ibirapuera Park slow due to accident victim'
+    NjRoute: NjRoute_9
+    NjTrip: NjTrip_17
+    NjStopTime: NjStopTime_55
+    average_speed: '10.00'
+    time_delay: '00:20:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_5:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Accident causes traffic congestion and slow'
+    NjRoute: NjRoute_10
+    NjTrip: NjTrip_21
+    NjStopTime: NjStopTime_63
+    average_speed: '10.00'
+    time_delay: '00:30:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_5:
+    NjNotificationType: NjNotificationType_1
+    detail: 'Accident causes traffic congestion and slow'
+    NjRoute: NjRoute_10
+    NjTrip: NjTrip_21
+    NjStopTime: NjStopTime_63
+    average_speed: '10.00'
+    time_delay: '00:30:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_6:
+    NjNotificationType: NjNotificationType_2
+    detail: 'Mechanical problems delayed the traffic'
+    NjRoute: NjRoute_10
+    NjTrip: NjTrip_23
+    NjStopTime: NjStopTime_22
+    average_speed: '10.00'
+    time_delay: '00:30:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_7:
+    NjNotificationType: NjNotificationType_3
+    detail: 'Mechanical problems delayed the traffic'
+    NjRoute: NjRoute_10
+    NjTrip: NjTrip_24
+    NjStopTime: NjStopTime_22
+    average_speed: '10.00'
+    time_delay: '00:30:00'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20' 
+  NjNotification_8:
+    NjNotificationType: NjNotificationType_4
+    detail: 'Merry Christmas and happy new year!'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'
+  NjNotification_9:
+    NjNotificationType: NjNotificationType_4
+    detail: 'Check out the No Jam App for your mobile!'
+    created_at: '2011-11-02 17:44:20'
+    updated_at: '2011-11-02 17:44:20'

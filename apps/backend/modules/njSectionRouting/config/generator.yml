@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjSectionRouting
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              SectionRouting
+    plural:                SectionRoutings
+    route_prefix:          nj_section_routing
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Section Routing List
+        display:  [=id, menu_order, description, detail, routing, created_at, updated_at]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

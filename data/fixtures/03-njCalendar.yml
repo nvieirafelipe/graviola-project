@@ -1,0 +1,27 @@
+NjCalendar:
+  NjCalendar_1:
+    description: 'Dias úteis'
+    detail: 'Calendário de dias úteis.'
+    monday: true
+    tuesday: true
+    wednesday: true
+    thursday: true
+    friday: true
+    saturday: false
+    sunday: false
+    end_date: '2016-01-01'
+    created_at: '2011-08-28 18:27:56'
+    updated_at: '2011-08-28 18:27:56'
+  NjCalendar_2:
+    description: 'Finais de semana'
+    detail: 'Calendário de finais de semana.'
+    monday: false
+    tuesday: false
+    wednesday: false
+    thursday: false
+    friday: false
+    saturday: true
+    sunday: true
+    end_date: '2016-01-01'
+    created_at: '2011-08-28 18:28:32'
+    updated_at: '2011-08-28 18:28:50'

@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjLoginGroupRouting
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              LoginGroupRouting
+    plural:                LoginGroupsRoutings
+    route_prefix:          nj_login_group_routing
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Login Group Routing List
+        display:  [=routing, sfGuardGroup, created_at, updated_at]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -1,0 +1,26 @@
+NjUserProfile:
+  NjUserProfile_1:
+    sfGuardUser: sfGuardUser_1
+    picture: admin-150x150.png
+    address: 'Rua das Orquideas, 100'
+    complement: 'Condominio nº5'
+    district: 'Centro'
+    city: 'Campinas'
+    state: 'Sao Paulo'
+    country: 'Brasil'
+    webpage: 'http://www.facebook.com/example_admin'
+    created_at: '2011-10-10 13:57:14'
+    updated_at: '2011-10-10 13:59:32'
+  NjUserProfile_2:
+    sfGuardUser: sfGuardUser_2
+    picture: basic_user.png
+    address: 'Rua dos Girassois, 45'
+    complement: 'N/A'
+    district: 'Jardim Brasil'
+    city: 'Sao Paulo'
+    state: 'Sao Paulo'
+    country: 'Brasil'
+    webpage: 'http://www.facebook.com/example_basic_user'
+    created_at: '2011-10-10 13:57:14'
+    updated_at: '2011-10-10 13:59:32'
+    

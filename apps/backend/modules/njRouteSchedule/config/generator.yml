@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjRouteSchedule
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              RouteSchedule
+    plural:                RouteSchedules
+    route_prefix:          nj_route_schedule
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list: 
+        title:    Route Schedule List
+        display:  [=id, nj_schedule_type_id, nj_stop_id, time, created_at, updated_at]
+
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

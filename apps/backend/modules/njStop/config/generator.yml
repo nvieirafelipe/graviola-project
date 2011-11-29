@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjStop
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Stop
+    plural:                Stops
+    route_prefix:          nj_stop
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Stop List
+        display:  [=description, detail, created_at, updated_at]
+
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

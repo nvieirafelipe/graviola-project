@@ -1,0 +1,417 @@
+NjTrip:
+  NjTrip_1:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_5
+    NjVehicle: NjVehicle_1
+    direction_id: 0
+    description: '1 - PUCC'
+    detail: '1 - PUCC'
+    polyline: ''
+    created_at: '2011-08-31 02:39:04'
+    updated_at: '2011-08-31 02:39:04'
+    
+  NjTrip_2:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_5
+    NjVehicle: NjVehicle_1
+    direction_id: 1
+    description: '1 - PUCC'
+    detail: '1 - PUCC'
+    polyline: ''
+    created_at: '2011-08-31 02:39:04'
+    updated_at: '2011-08-31 02:39:04'
+    
+  NjTrip_3:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_5
+    NjVehicle: NjVehicle_1
+    direction_id: 0
+    description: '1 - PUCC'
+    detail: '1 - PUCC'
+    polyline: ''
+    created_at: '2011-08-31 02:39:04'
+    updated_at: '2011-08-31 02:39:04'
+    
+  NjTrip_4:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_5
+    NjVehicle: NjVehicle_1
+    direction_id: 1
+    description: '1 - PUCC'
+    detail: '1 - PUCC'
+    polyline: ''
+    created_at: '2011-08-31 02:39:04'
+    updated_at: '2011-08-31 02:39:04'
+#Route: 6 - Congonhas - Estadio Morumbi - Onibus
+  NjTrip_5:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_6
+    NjVehicle: NjVehicle_2
+    direction_id: 0
+    description: '6 - Congonhas - Estadio Morumbi - Onibus'
+    detail: '6 - Congonhas - Estadio Morumbi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_6:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_6
+    NjVehicle: NjVehicle_2
+    direction_id: 1
+    description: '6 - Congonhas - Estadio Morumbi - Onibus'
+    detail: '6 - Congonhas - Estadio Morumbi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_7:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_6
+    NjVehicle: NjVehicle_2
+    direction_id: 0
+    description: '6 - Congonhas - Estadio Morumbi - Onibus'
+    detail: '6 - Congonhas - Estadio Morumbi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+ 
+  NjTrip_8:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_6
+    NjVehicle: NjVehicle_2
+    direction_id: 1
+    description: '6 - Congonhas - Estadio Morumbi - Onibus'
+    detail: '6 - Congonhas - Estadio Morumbi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+#Route: 7 - Cumbica - Morumbi -  Onibus
+  NjTrip_9:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_7
+    NjVehicle: NjVehicle_3
+    direction_id: 0
+    description: '7 - Cumbica - Morumbi -  Onibus'
+    detail: '7 - Cumbica - Morumbi -  Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_10:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_7
+    NjVehicle: NjVehicle_3
+    direction_id: 1
+    description: '7 - Cumbica - Morumbi -  Onibus'
+    detail: '7 - Cumbica - Morumbi -  Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_11:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_7
+    NjVehicle: NjVehicle_3
+    direction_id: 0
+    description: '7 - Cumbica - Morumbi -  Onibus'
+    detail: '7 - Cumbica - Morumbi -  Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_12:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_7
+    NjVehicle: NjVehicle_3
+    direction_id: 1
+    description: '7 - Cumbica - Morumbi -  Onibus'
+    detail: '7 - Cumbica - Morumbi -  Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+#Route: 8 - Cumbica - Anhembi - Onibus
+  NjTrip_13:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_8
+    NjVehicle: NjVehicle_4
+    direction_id: 0
+    description: '8 - Cumbica - Anhembi - Onibus'
+    detail: '8 - Cumbica - Anhembi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_14:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_8
+    NjVehicle: NjVehicle_4
+    direction_id: 1
+    description: '8 - Cumbica - Anhembi - Onibus'
+    detail: '8 - Cumbica - Anhembi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_15:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_8
+    NjVehicle: NjVehicle_4
+    direction_id: 0
+    description: '8 - Cumbica - Anhembi - Onibus'
+    detail: '8 - Cumbica - Anhembi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+   
+  NjTrip_16:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_8
+    NjVehicle: NjVehicle_4
+    direction_id: 1
+    description: '8 - Cumbica - Anhembi - Onibus'
+    detail: '8 - Cumbica - Anhembi - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+#Route: 9 - Terminal Tiete - Parque Ibirapuera - Onibus
+  NjTrip_17:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_9
+    NjVehicle: NjVehicle_5
+    direction_id: 0
+    description: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    detail: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_18:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_9
+    NjVehicle: NjVehicle_5
+    direction_id: 1
+    description: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    detail: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_19:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_9
+    NjVehicle: NjVehicle_5
+    direction_id: 0
+    description: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    detail: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  NjTrip_20:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_9
+    NjVehicle: NjVehicle_5
+    direction_id: 1
+    description: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    detail: '9 - Terminal Tiete - Parque Ibirapuera - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+#Route: 10 - Terminal Tiete - Congonhas - Onibus
+  NjTrip_21:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_10
+    NjVehicle: NjVehicle_6
+    direction_id: 0
+    description: '10 - Terminal Tiete - Congonhas - Onibus'
+    detail: '10 - Terminal Tiete - Congonhas - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_22:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_10
+    NjVehicle: NjVehicle_6
+    direction_id: 1
+    description: '10 - Terminal Tiete - Congonhas - Onibus'
+    detail: '10 - Terminal Tiete - Congonhas - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_23:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_10
+    NjVehicle: NjVehicle_6
+    direction_id: 0
+    description: '10 - Terminal Tiete - Congonhas - Onibus'
+    detail: '10 - Terminal Tiete - Congonhas - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_24:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_10
+    NjVehicle: NjVehicle_6
+    direction_id: 1
+    description: '10 - Terminal Tiete - Congonhas - Onibus'
+    detail: '10 - Terminal Tiete - Congonhas - Onibus'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+    
+  #Route 1 - Rota na Av. Alcantara Machado
+  NjTrip_25:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_1
+    NjVehicle: NjVehicle_7
+    direction_id: 0
+    description: '1 - Rota na Av. Alcantara Machado'
+    detail: '1 - Rota na Av. Alcantara Machado'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_26:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_1
+    NjVehicle: NjVehicle_7
+    direction_id: 1
+    description: '1 - Rota na Av. Alcantara Machado'
+    detail: '1 - Rota na Av. Alcantara Machado'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+ 
+  NjTrip_27:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_1
+    NjVehicle: NjVehicle_7
+    direction_id: 0
+    description: '1 - Rota na Av. Alcantara Machado'
+    detail: '1 - Rota na Av. Alcantara Machado'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+
+  NjTrip_28:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_1
+    NjVehicle: NjVehicle_7
+    direction_id: 1
+    description: '1 - Rota na Av. Alcantara Machado'
+    detail: '1 - Rota na Av. Alcantara Machado'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  #Route 2 - Rota na Vd. Carlos Ferraci
+  NjTrip_29:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_2
+    NjVehicle: NjVehicle_8
+    direction_id: 0
+    description: '2 - Vd. Carlos Ferraci'
+    detail: '2 - Vd. Carlos Ferraci'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_30:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_2
+    NjVehicle: NjVehicle_8
+    direction_id: 1
+    description: '2 - Vd. Carlos Ferraci'
+    detail: '2 - Vd. Carlos Ferraci'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_31:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_2
+    NjVehicle: NjVehicle_8
+    direction_id: 0
+    description: '2 - Vd. Carlos Ferraci'
+    detail: '2 - Vd. Carlos Ferraci'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_32:
+    NjCalendar: NjCalendar_2
+    NjRoute: NjRoute_2
+    NjVehicle: NjVehicle_8
+    direction_id: 1
+    description: '2 - Vd. Carlos Ferraci'
+    detail: '2 - Vd. Carlos Ferraci'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  #Route 11 - Metro L1 Azul
+  NjTrip_33:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_11
+    NjVehicle: NjVehicle_9
+    direction_id: 1
+    description: '11 - Metro L1 Azul'
+    detail: '11 - Metro L1 Azul'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_34:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_11
+    NjVehicle: NjVehicle_9
+    direction_id: 0
+    description: '11 - Metro L1 Azul'
+    detail: '11 - Metro L1 Azul'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  #Route 12 - Metro L3 Vermelho
+  NjTrip_35:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_12
+    NjVehicle: NjVehicle_10
+    direction_id: 1
+    description: '12 - Metro L3 Vermelho'
+    detail: '12 - Metro L3 Vermelho'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_36:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_12
+    NjVehicle: NjVehicle_10
+    direction_id: 0
+    description: '12 - Metro L3 Vermelho'
+    detail: '12 - Metro L3 Vermelho'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  #Route 13 - Trem CPTM L10
+  NjTrip_37:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_13
+    NjVehicle: NjVehicle_11
+    direction_id: 1
+    description: '13 - Trem CPTM L10'
+    detail: '13 - Trem CPTM L10'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'
+  NjTrip_38:
+    NjCalendar: NjCalendar_1
+    NjRoute: NjRoute_13
+    NjVehicle: NjVehicle_11
+    direction_id: 0
+    description: '13 - Trem CPTM L10'
+    detail: '13 - Trem CPTM L10'
+    polyline: ''
+    created_at: '2011-10-22 16:50:04'
+    updated_at: '2011-10-22 16:50:04'

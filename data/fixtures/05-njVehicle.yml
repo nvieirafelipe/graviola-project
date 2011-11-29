@@ -1,0 +1,81 @@
+NjVehicle:
+  ##Onibus
+  NjVehicle_1:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 101
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45'
+    
+  NjVehicle_2:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 102
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45'
+    
+  NjVehicle_3:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 103
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45'
+    
+  NjVehicle_4:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 104
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45'
+    
+  NjVehicle_5:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 105
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45' 
+    
+  NjVehicle_6:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 106
+    detail: 'Loren ipsun'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45' 
+    
+  NjVehicle_7:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 107
+    detail: 'Rota na Av. Alcantara Machado'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45' 
+    
+  NjVehicle_8:
+    NjTransportMode: NjTransportMode_1
+    description: Onibus - 108
+    detail: 'Rota na Vd. Carlos Ferraci'
+    created_at: '2011-08-31 02:25:45'
+    updated_at: '2011-08-31 02:25:45' 
+    
+  ##Metro      
+  NjVehicle_9:
+    NjTransportMode: NjTransportMode_2
+    description: Metro - 201
+    detail: 'Loren ipsun'
+    created_at: '2011-10-22 15:25:45'
+    updated_at: '2011-10-22 15:25:45'
+    
+  NjVehicle_10:
+    NjTransportMode: NjTransportMode_2
+    description: Metro - 202
+    detail: 'Loren ipsun'
+    created_at: '2011-10-22 15:25:45'
+    updated_at: '2011-10-22 15:25:45'
+
+  ##Trem  
+  NjVehicle_11:
+    NjTransportMode: NjTransportMode_3
+    description: Trem - 301
+    detail: 'Loren ipsun'
+    created_at: '2011-10-22 15:25:45'
+    updated_at: '2011-10-22 15:25:45'
+      

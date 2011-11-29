@@ -1,0 +1,302 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# graviola - Transport rules 
+nj_trip_new_add_stop:
+  url:   /trips/new/add-stop
+  param: { module: njTrip, action: AddStop }
+
+nj_trip_new_add_stop_time:
+  url:   /trips/new/add-stop-time
+  param: { module: njTrip, action: AddStopTime }
+
+nj_trip_add_stop:
+  url:   /trips/:id/edit/add-stop
+  param: { module: njTrip, action: AddStop }
+
+nj_trip_add_stop_time:
+  url:   /trips/:id/edit/add-stop-time
+  param: { module: njTrip, action: AddStopTime }
+
+nj_trip:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjTrip
+    module:               njTrip
+    prefix_path:          /trips
+    column:               id
+    with_wildcard_routes: true
+
+nj_route_new_add_trip:
+  url:   /routes/new/add-trip
+  param: { module: njRoute, action: AddTrip }
+
+nj_route_add_trip:
+  url:   /routes/:id/edit/add-trip
+  param: { module: njRoute, action: AddTrip }
+  
+nj_route_json:
+  url:   /routes/:id.json
+  param: { module: njRoute, action: Json }
+
+nj_route:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjRoute
+    module:               njRoute
+    prefix_path:          /routes
+    column:               id
+    with_wildcard_routes: true
+
+nj_stop:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjStop
+    module:               njStop
+    prefix_path:          /stops
+    column:               id
+    with_wildcard_routes: true
+
+nj_vehicle:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjVehicle
+    module:               njVehicle
+    prefix_path:          /vehicles
+    column:               id
+    with_wildcard_routes: true
+
+nj_calendar:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjCalendar
+    module:               njCalendar
+    prefix_path:          /calendars
+    column:               id
+    with_wildcard_routes: true
+
+nj_transport_mode:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjTransportMode
+    module:               njTransportMode
+    prefix_path:          /transport-modes
+    column:               id
+    with_wildcard_routes: true
+
+
+
+# graviola - Panel Control rules 
+nj_notification:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjNotification
+    module:               NjNotification
+    prefix_path:          /notifications
+    column:               id
+    with_wildcard_routes: true
+
+nj_report_json: 
+  url:   /reports/chart-data.json
+  param: { module: njReport, action: json }
+
+nj_report: 
+  url:   /reports
+  param: { module: njReport, action: index }
+
+nj_notification_type:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjNotificationType
+    module:               njNotificationType
+    prefix_path:          /njNotificationType
+    column:               id
+    with_wildcard_routes: true
+
+nj_dashboard:
+  url:   /dashboard
+  param: { module: njDashboard, action: index }
+
+  
+
+# graviola - App Config rules
+nj_section_routing: 
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjSectionRouting
+    module:               NjSectionRouting
+    prefix_path:          /section-routing
+    column:               id
+    with_wildcard_routes: true
+
+nj_menu_item_routing:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjMenuItemRouting
+    module:               njMenuItemRouting
+    prefix_path:          /menu-items-routings
+    column:               id
+    with_wildcard_routes: true
+
+nj_login_group_routing:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjLoginGroupRouting
+    module:               njLoginGroupRouting
+    prefix_path:          /login-groups-routings
+    column:               id
+    with_wildcard_routes: true
+
+nj_data_simulation_new:
+  url:   /data-simulation/new
+  param: { module: njDataSimulation, action: new }
+
+nj_data_simulation:
+  url:   /data-simulation
+  param: { module: njDataSimulation, action: index }
+
+
+
+# graviola - Access Control rules 
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_register:
+  url:   /register
+  param: { module: sfGuardRegister, action: register }
+
+sf_guard_forgot_password:
+  url:   /forgot-password
+  param: { module: sfGuardForgotPassword, action: index }
+
+sf_guard_permission:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardPermission
+    module:               sfGuardPermission
+    prefix_path:          /permissions
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardGroup
+    module:               sfGuardGroup
+    prefix_path:          /groups
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_user:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardUser
+    module:               sfGuardUser
+    prefix_path:          /users
+    column:               id
+    with_wildcard_routes: true
+
+
+
+# gravila - Sections
+main:
+  url:   /
+  param: { module: main, action: index }
+
+transport:
+  url:   /transports
+  param: { module: njTransport, action: index }
+
+panel_control:
+  url:   /panel-controls
+  param: { module: njPanelControl, action: index }
+
+access_control: 
+  url:   /access-controls
+  param: { module: njAccessControl, action: index }
+
+app_config: 
+  url:   /app-config
+  param: { module: njAppConfig, action: index }
+
+
+
+# graviola - sfDependentSelectPlugin rules
+sfDependentSelectAuto_ajax:
+  url: /depepedent/ajax
+  param: { module: sfDependentSelectAuto, action: _ajax }
+
+
+
+# njUserProfile
+nj_user_profile_show:
+  url:  /profile/show
+  class:    sfDoctrineRoute
+  param: { module: njUserProfile, action: show }
+  options:  { model: NjUserProfile, type: object }
+
+nj_user_profile_edit:
+  url:  /profile/edit
+  class:    sfDoctrineRoute
+  param: { module: njUserProfile, action: edit }
+  options:  { model: NjUserProfile, type: object }
+
+nj_user_profile_create:
+  url:  /profile/create
+  param: { module: njUserProfile, action: create }
+
+nj_user_profile_update:
+  url:  /profile/update
+  param: { module: njUserProfile, action: update }
+
+
+
+# graviola - No Jam rules
+frontend:
+  url:   ../../web/
+  param: { module: main, action: index }
+
+backend:
+  url:   /backend.php
+  param: { module: main, action: index }
+
+termAndConditions:
+  url:   /terms-and-conditions
+  param: { module: main, action: termAndConditions }
+
+privacyStatement:
+  url:   /privacy-statement
+  param: { module: main, action: privacyStatement }
+
+advertise:
+  url:   /advertise
+  param: { module: main, action: advertise }
+
+about:
+  url:   /about
+  param: { module: main, action: about }
+
+contact:
+  url:   /contact
+  param: { module: main, action: contact }
+
+
+
+# default rules
+homepage:
+  url:   /
+  param: { module: main, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+# default_index:
+#  url:   /:module
+#  param: { action: index }
+
+# default:
+#  url:   /:module/:action/*

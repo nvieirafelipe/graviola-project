@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjNotificationType
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              NotificationType
+    plural:                TypeNotifications
+    route_prefix:          nj_notification_type
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Notification List
+        display:  [=id, description,created_at, updated_at]
+        
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:

@@ -1,0 +1,5 @@
+indexSuccess:
+  javascripts: [ 'https://www.google.com/jsapi?autoload={"modules":[{"name":"visualization", "version":"1", "packages":["charteditor"]}]}', common/graphs/graphs.core.js, backend/njDashboard.js ]
+
+jsonSuccess:
+  has_layout:  false

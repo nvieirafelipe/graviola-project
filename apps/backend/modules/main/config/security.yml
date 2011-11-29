@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+termAndConditions:
+  is_secure:    false
+
+privacyStatement:
+  is_secure:    false
+
+advertise:
+  is_secure:    false
+
+about:
+  is_secure:    false
+
+contact:
+  is_secure:    false
+
+all:
+  is_secure:    true
+  credentials: AccessBackend

@@ -1,0 +1,89 @@
+/** NoJam */
+body { background-image: url("../images/background.jpg"); background-color: #7b7576; background-repeat: repeat-x; }
+
+/* Styles for link's. */
+input.link { padding: 2px 8px; border: 2px outset buttonface; }
+.link { text-decoration: none; cursor: pointer; border-top: 6px solid transparent; padding: 12px; font-size: x-large; color: #000000; }
+.link.large { font-size: large; }
+.link.medium { font-size: medium; }
+.link.small { font-size: x-small; }
+
+.text.small { height: 18px;  width: 120px; }
+
+/* NoJam - Styles for header's. */
+.header { height: 144px; width: 100%; min-width: 950px; margin-bottom: 6px; background-color: #FFFFFF; top: 0; }
+.header-top { height: 140px; }
+.header img.njLogo { width: 130px; height: 140px; margin-right: 6px; }
+
+tbody tr:nth-child(2n) td, tbody tr.even td { background: none repeat scroll 0 0; }
+
+.welcome-message { font-size: large; }
+.welcome-message strong { margin-left: 2.5em; }
+.welcome-message p { margin: 0; }
+.welcome-message ul { padding: 0; }
+
+.signin { position: relative; }
+.signin > form > input { position: absolute; margin: 12px; bottom: 42px;  }
+.signin div { width: 130px; margin: 12px 12px 0px 0px; float: left; }
+.signin div.buttons { width: 222px; margin: 36px 0 0 0; }
+.signin div.extra { clear: left; width: 400px; margin: 0px; float: left; }
+.signin div label { font-size: 12px; }
+
+.dropdown-menu { display: inline; cursor: pointer; padding: 10px; margin: 0; background-image: url('../images/icons/black-dropdown24x24.png'); background-repeat: no-repeat; background-position: center; }
+.dropdown-menu ul { display: none; list-style: none; border: 1px solid #DDD; background: #FFF; padding: 10px; position: absolute; right:60px; top:100px }
+.dropdown-menu ul a { padding: 4px 12px 4px 36px; }
+
+.edit_profile { display: block; width: 96px; padding: 2px 4px 2px 36px; margin: 0; background-image: url('../images/icons/black-edit24x24.png'); background-repeat: no-repeat; background-position: center left; }
+.edit_profile:hover { border-color: transparent; }
+.logout { display: block; width: 96px; padding-left: 36px; padding-bottom: 0; padding-top: 0; margin: 0; background-image: url('../images/icons/black-back24x24.png'); background-repeat: no-repeat; background-position: center left; }
+.logout:hover { border-color: transparent; }
+
+.welcome-message > .menu { height: 60px; }
+.main_menu { height: 96px; padding-top: 12px; }
+.menu.medium { height: 72px; text-align: center; }
+.menu li, .main_menu li { display: inline; }
+/* Alterar cor de texto e borda ao passar o mouse em cima de um link de menu, quando esse link estiver ativo, for correspondente a seção da página atual ou for a página atual*/
+.main_menu > li > a.link:hover, .main_menu > li > a.link:active, .current_ancestor > a, .main_menu > .current > a { border-color: #326EA1; color: #326EA1; }  
+/* Alterar cor de texto e ao passar o mouse em cima de um link de submenu, quando esse link estiver ativo ou for a página atual*/
+.menu > li > a.link:hover, .menu > li > a.link:active, .menu_level_1 > li > a.link:hover, .menu_level_1 > li > a.link:active, .menu_level_1 > li.current > a { color: #326EA1; } 
+/* Por padrão esconder submenus */
+.menu_level_1 { display: none; height: 36px; padding: 3px 0 0 0; }
+/* Mostrar submenus quando forem correspondentes a página atual ou ao passar o mouse sobre a seção */
+.current > ul, .current_ancestor > ul, .current_ancestor > ul:hover { display: block; position: absolute; }
+
+/* Styles for footer's. */
+.footer { height: 144px; margin-top: 6px; }
+.footer .footer-top { margin-top: 24px; }
+
+.copyright { display: block; width: 120px; padding: 18px 60px 18px 12px; background-image: url('../images/icons/black-logo48x48.png'); background-repeat: no-repeat; background-position: center right; }
+
+div.map_canvas, div.graph_canvas, div.graph_canvas { width:648px; height:540px; float: left; clear: right; margin-right: 12px; }
+div.graph_canvas_dashboard { width: 100%; height: 540px; float: left; clear: right; margin-right: 12px; }
+select { font-size: 1.5em; }
+
+::selection { background:#FF0084;color:white }
+::-moz-selection { background:#FF0084;color:white }
+::-webkit-selection { background:#FF0084;color:white }
+
+.error p { padding: 4px; padding-left: 25px; background: url(../sfDoctrinePlugin/images/error.png) no-repeat 4px 4px; }
+
+.select-box { width: 100%; }
+
+#routes_filter > ul { height: 480px; overflow: auto; list-style: none; margin: 0; }
+#routes_filter > ul > li { margin-bottom: 4px; background-color: #FFF;  }
+#routes_filter > ul > li > a { display: block; color: #326EA1; padding: 12px; text-decoration: none; }
+#routes_filter > ul > li > a:hover { color: #FFF; background-color: #326EA1; }
+
+ul.direction-tabs { list-style: none; padding: 0; margin: 0; }
+ul.direction-tabs li { display: inline-block; width: 120px; }
+ul.direction-tabs li > a { display: block; color: #777; background-color: #FFF; border-top: 0; border-bottom: 2px solid #EEE; }
+ul.direction-tabs li > a:hover { color: #0073EA; border-top: 2px solid; }
+ul.direction-tabs li > a.selected { color: #FF0084; background-color: #FFF; border-top: 2px solid; border-bottom: 2px solid #FFF;}
+
+.tabContents { background-color: #FFF; padding: 12px 4px; }
+.tabContent > table > tbody > tr > td { display: inline-block; }
+
+a.subscribe { display: block; padding: 24px; background: url('../images/icons/feed-icon-64x64.png') no-repeat right;}
+a.unsubscribe { display: block; padding: 24px; background: url('../images/icons/trash-icon-64x64.png') no-repeat right;}
+
+div#notifications { margin-bottom: 12px; }

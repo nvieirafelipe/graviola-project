@@ -1,0 +1,9 @@
+NjNotificationType:
+  NjNotificationType_1:
+    description: 'Accident'
+  NjNotificationType_2:
+    description: 'Delay'
+  NjNotificationType_3:
+    description: 'Relocation'
+  NjNotificationType_4:
+    description: 'General notice'

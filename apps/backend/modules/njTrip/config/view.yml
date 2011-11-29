@@ -1,0 +1,11 @@
+showSuccess:
+  javascripts:    [http://maps.google.com/maps/api/js?sensor=false&libraries=geometry, common/maps/maps.core.js, backend/maps/maps]
+
+editSuccess:
+  javascripts:    [http://maps.google.com/maps/api/js?sensor=false&libraries=geometry, common/maps/maps.core.js, backend/maps/editable_maps, backend/njTrip]
+
+newSuccess:
+  javascripts:    [http://maps.google.com/maps/api/js?sensor=false&libraries=geometry, common/maps/maps.core.js, backend/maps/editable_maps, backend/njTrip]
+
+AddStopSuccess:
+  has_layout: false

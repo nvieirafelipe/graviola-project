@@ -1,0 +1,240 @@
+NjStop:
+  NjStop_1:
+    description: 'Rua José Vedovello - Fazenda Santa Cândida Campinas, SP'
+    latitude: '-22.843520'
+    longitude: '-47.052620'
+    created_at: '2011-05-10 13:01:07'
+    updated_at: '2011-05-10 13:01:07'
+  NjStop_2:
+    description: 'Rua José Vedovello - Fazenda Santa Cândida Campinas, SP'
+    latitude: '-22.844940'
+    longitude: '-47.052430'
+    created_at: '2011-05-10 13:02:11'
+    updated_at: '2011-05-10 13:04:50'
+  NjStop_3:
+    description: 'Rua Adelino Martins - Mansões Santo Antônio Campinas, SP'
+    latitude: '-22.849010'
+    longitude: '-47.053750'
+    created_at: '2011-05-10 13:02:56'
+    updated_at: '2011-05-10 13:04:15'
+  NjStop_4:
+    description: 'Rua Adelino Martins - Mansões Santo Antônio Campinas, SP'
+    latitude: '-22.852100'
+    longitude: '-47.053740'
+    created_at: '2011-05-10 13:05:17'
+    updated_at: '2011-05-10 13:08:01'
+  NjStop_5:
+    description: 'Rua Das Hortências - Chácara Primavera Campinas, SP'
+    latitude: '-22.856720'
+    longitude: '-47.052980'
+    created_at: '2011-05-10 13:06:40'
+    updated_at: '2011-05-10 13:06:40'
+#Route: 6 - Congonhas - Estadio Morumbi - Onibus    
+  NjStop_6:
+    description: '175T-10 Av. Washington Luiz, 6808'
+    latitude: '-23.626201'
+    longitude: '-46.661354'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_7:
+    description: '477U-10 Av. Pedro Alvares Cabral'
+    latitude: '-23.581412'
+    longitude: '-46.658064'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_8:
+    description: '775F-10 Av. Brig. Faria Lima'
+    latitude: '-23.565275'
+    longitude: '-46.694523'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+#Route: 7 - Cumbica - Morumbi -  Onibus
+  NjStop_9:
+    description: '538	Partida Acesso para Rodovia SP'
+    latitude: '-23.430573'
+    longitude: '-46.493502'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'    
+  NjStop_10:
+    description: '342 Partida Acesso para R Inúbia Paulista'
+    latitude: '-23.525001'
+    longitude: '-46.628310'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40' 
+  NjStop_11:
+    description: '701T-10 Av. Cruzeiro Do Sul, 1801'
+    latitude: '-23.514199'
+    longitude: '-46.625209'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_12:
+    description: '775F-10 Tucuma'
+    latitude: '-23.586176'
+    longitude: '-46.696431'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+#Route: 8 - Cumbica - Anhembi - Onibus
+  NjStop_13:
+    description: '331 A2	Hélio Smidt, ponto 9'
+    latitude: '-23.432372'
+    longitude: '-46.493424'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'    
+  NjStop_14:
+    description: '016 Av. Odair Santanelli, 84‎'
+    latitude: '-23.457275'
+    longitude: '-46.494916'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_15:
+    description: '354 R. da Coroa, 289'
+    latitude: '-23.518151'
+    longitude: '-46.617561'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_16:
+    description: '354 Passarela do Samba Adoniran Barbosa'
+    latitude: '-23.514723'
+    longitude: '-46.638916'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_17:
+    description: '016 Av. do Estado, 958'
+    latitude: '-23.525472'
+    longitude: '-46.630255'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+#Route: 9 - Terminal Tiete - Parque Ibirapuera - Onibus
+  NjStop_19:
+    description: '164 Partida Av. Cruzeiro do Sul, 1864'
+    latitude: '-23.513685'
+    longitude: '-46.625282'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_20:
+    description: '175T-10 Av. Prestes Maia, 526'
+    latitude: '-23.540157'
+    longitude: '-46.633709'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'   
+#Route: 10 - Terminal Tiete - Congonhas - Onibus
+  NjStop_21:
+    description: '164 Partida Av. Cruzeiro do Sul, 1864'
+    latitude: '-23.513685'
+    longitude: '-46.625282'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_22:
+    description: '5614-10 Av. Vinte E Tres De Maio'
+    latitude: '-23.577540'
+    longitude: '-46.644940'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_23:
+    description: '175T-10 Av. Washington Luiz, 6808'
+    latitude: '-23.626216'
+    longitude: '-46.661382'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+ #Route 1 - Rota na Av. Alcantara Machado
+  NjStop_24:
+    description: '3459-10 - Itaim Paulista - Term. Pq. D.pedro '
+    latitude: '-23.543811'
+    longitude: '-46.589332'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_25:
+    description: '372U-10 - Ac. Acesso A‎ '
+    latitude: '-23.541042'
+    longitude: '-46.577506'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_26:
+    description: '3435-51 - Av. Cde. De Frontin '
+    latitude: '-23.534115'
+    longitude: '-46.543088'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'      
+  NjStop_27:
+    description: '3539-51 - Av. Cde. De Frontin, 1938‎ '
+    latitude: '-23.533104'
+    longitude: '-46.537984'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+ #Route 2 - Rota na Vd. Carlos Ferraci
+  NjStop_28:
+    description: '150 - R. Simas Pimenta, 2‎ '
+    latitude: '-23.536126'
+    longitude: '-46.571643'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'  
+  NjStop_29:
+    description: '205 - Av. Azevedo, 118‎ '
+    latitude: '-23.541214'
+    longitude: '-46.571021'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40' 
+  NjStop_30:
+    description: '312T-10 - Av. Azevedo, 462‎ '
+    latitude: '-23.543498'
+    longitude: '-46.570517'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40' 
+  #Route 11 - Metro L1 Azul
+  NjStop_31:
+    description: 'Luz'
+    latitude: '-23.537983'
+    longitude: '-46.633862'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40' 
+  NjStop_32:
+    description: 'Sao Bento'
+    latitude: '-23.543958'
+    longitude: '-46.633873'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_33:
+    description: 'Se'
+    latitude: '-23.550769'
+    longitude: '-46.633503'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  #Route 12 - Metro L3 Vermelho
+  NjStop_34:
+    description: 'Se'
+    latitude: '-23.550725'
+    longitude: '-46.633275'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40' 
+  NjStop_35:
+    description: 'Dom Pedro II'
+    latitude: '-23.549732'
+    longitude: '-46.625574'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_36:
+    description: 'Bras'
+    latitude: '-23.548079'
+    longitude: '-46.615811'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  #Route 13 - Trem CPTM L10
+  NjStop_37:
+    description: 'Luz'
+    latitude: '-23.535352'
+    longitude: '-46.634265'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_38:
+    description: 'Bras'
+    latitude: '-23.544730'
+    longitude: '-46.616567'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+  NjStop_39:
+    description: 'Mooca'
+    latitude: '-23.556737'
+    longitude: '-46.608969'
+    created_at: '2011-10-24 19:06:40'
+    updated_at: '2011-10-24 19:06:40'
+    

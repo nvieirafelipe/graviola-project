@@ -1,0 +1,12 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardGroup
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Group
+    plural:                Groups
+    route_prefix:          sf_guard_group
+    with_doctrine_route:   true
+    actions_base_class:    sfActions

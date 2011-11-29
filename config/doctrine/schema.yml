@@ -1,0 +1,748 @@
+# graviola 
+NjSectionRouting:
+  connection: doctrine
+  tableName: nj_section_routing
+  actAs: { Timestampable: ~ }
+  columns: 
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    menu_order:
+      type: integer(8)
+      unsigned: true
+      primary: false
+    description:
+      type: string(128)
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    detail:
+      type: string()
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    routing:
+      type: string(128)
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+
+NjMenuItemRouting:
+  connection: doctrine
+  tableName: nj_menu_item_routing
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_section_routing_id: 
+      type: integer(8)
+      unsigned: true
+    menu_order:
+      type: integer(8)
+      unsigned: true
+      primary: false
+    description:
+      type: string(128)
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    detail:
+      type: string()
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    routing:
+      type: string(128)
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    NjSectionRouting: 
+      foreignType: one
+      local: nj_section_routing_id
+      foreign: id
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    sfGuardPermission:
+      class: sfGuardPermission
+      refClass: NjPermissionMenuItemRouting
+      local: nj_menu_item_routing_id
+      foreign: sf_guard_permission_id
+      foreignAlias: MenuItemsRoutings
+
+NjPermissionMenuItemRouting:
+  connection: doctrine
+  tableName: nj_permission_menu_item_routing
+  actAs: { Timestampable: ~ }
+  columns:
+    nj_menu_item_routing_id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: false
+    sf_guard_permission_id:
+      type: integer(8)
+      unsigned: false
+      primary: true
+      autoincrement: false
+  relations:
+    NjMenuItemRouting:
+      class: NjMenuItemRouting
+      local: nj_menu_item_routing_id
+      foreign: id
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    sfGuardPermission:
+      class: sfGuardPermission
+      local: sf_guard_permission_id
+      foreign: id
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjLoginGroupRouting:
+  connection: doctrine
+  tableName: nj_login_group_routing
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    sf_guard_group_id:
+      type: integer(8)
+      unsigned: false
+      primary: false
+      autoincrement: false
+    routing:
+      type: string(128)
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    sfGuardGroup:
+      local: sf_guard_group_id
+      foreign: id
+      type: one
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjUserProfile:
+  connection: doctrine
+  tableName: nj_user_profile
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+    picture:
+      type: string(255)
+      notnull: false
+    address:
+      type: string(255)
+      notnull: false
+    complement:
+      type: string(128)
+      notnull: false
+    district:
+      type: string(128)
+      notnull: false
+    city:
+      type: string(128)
+      notnull: false
+    state:
+      type: string(128)
+      notnull: false
+    country:
+      type: string(128)
+      notnull: false
+    webpage:
+      type: string(128)
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    sfGuardUser:
+      local: user_id
+      foreign: id
+      type: one
+      foreignType: one
+      class: sfGuardUser
+      onUpdate: CASCADE
+      onDelete: CASCADE
+      foreignAlias: Profile
+
+
+
+NjTransportMode:
+  connection: doctrine
+  tableName: nj_transport_mode
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    description:
+      type: string(128)
+      notnull: false
+    detail:
+      type: string
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    NjRoute:
+      local: id
+      foreignAlias: NjTransportMode
+      foreignType: one
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjVehicle:
+      local: id
+      foreignAlias: NjTransportMode
+      foreignType: one
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjRoute:
+  connection: doctrine
+  tableName: nj_route
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true 
+    nj_transport_mode_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    number:
+      type: string(50)
+      autoincrement: false
+    name:
+      type: string(128)
+      notnull: true
+    description:
+      type: string(128)
+      notnull: false
+    detail:
+      type: string()
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    NjTransportMode:
+      foreignAlias: NjRoutes
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+
+
+NjTrip:
+  connection: doctrine
+  tableName: nj_trip
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_calendar_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    nj_route_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    nj_vehicle_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    direction_id: 
+      type: boolean
+      notnull: true
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+    polyline:
+      type: clob
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    NjCalendar:
+      foreignAlias: NjTrips
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjRoute:
+      foreignAlias: NjTrips
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjVehicle:
+      foreignAlias: NjTrips
+      foreignType: one
+      type: one
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjCalendar:
+  connection: doctrine
+  tableName: nj_calendar
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+    monday:
+      type: boolean
+      notnull: true 
+    tuesday:
+      type: boolean
+      notnull: true 
+    wednesday:
+      type: boolean
+      notnull: true
+    thursday:
+      type: boolean
+      notnull: true
+    friday:
+      type: boolean
+      notnull: true
+    saturday:
+      type: boolean
+      notnull: true
+    sunday:
+      type: boolean
+      notnull: true
+    end_date:
+      type: date
+      notnull: true
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+
+NjVehicle:
+  connection: doctrine
+  tableName: nj_vehicle
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_transport_mode_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+  relations:
+    NjTransportMode:
+      foreignAlias: NjVehicles
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+ 
+NjStopTime:
+  connection: doctrine
+  tableName: nj_stop_time
+  actAs: 
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_trip_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    nj_stop_id:
+      type: integer(8)
+      unsigned: true
+    arrival_time:
+      type: time
+      notnull: false
+    departure_time:
+      type: time
+      notnull: false
+    stop_sequence:
+      type: integer
+      notnull: true
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+    dist_traveled:
+      type: float
+      notnull: true
+#  options:
+#    orderBy: stop_sequence
+  relations:
+    NjTrip:
+      foreignAlias: NjStopTimes
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjStop:
+      foreignAlias: NjStopTimes
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjStop:
+  connection: doctrine
+  tableName: nj_stop
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+    latitude:
+      type: decimal(18)
+      scale: 6
+      notnull: false
+    longitude:
+      type: decimal(18) 
+      scale: 6
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+
+
+
+NjRun:
+  connection: doctrine
+  tableName: nj_run
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_trip_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    nj_stop_id:
+      type: integer(8)
+      unsigned: true
+    step_into:
+      type: integer
+    step_out:
+      type: integer
+  relations:
+    NjTrip:
+      foreignAlias: NjRuns
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjStop:
+      foreignAlias: NjRuns
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjEstimatedArrivalTime:
+  connection: doctrine
+  tableName: nj_estimated_arrival_time
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_trip_id:
+      type: integer(8)
+      unsigned: true
+      notnull: true
+    nj_stop_id:
+      type: integer(8)
+      unsigned: true
+    arrival_time:
+      type: time
+      notnull: false
+  relations:
+    NjTrip:
+      foreignAlias: NjRuns
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjStop:
+      foreignAlias: NjRuns
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+NjNotification:
+  connection: doctrine
+  tableName: nj_notification
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      unsigned: true
+      primary: true
+      autoincrement: true
+    nj_notification_type_id:
+       type: integer(8)
+       fixed: false
+       unsigned: true
+       notnull: true  
+    description:
+      type: string(128)
+      notnull: true
+    detail:
+      type: string()
+      notnull: false
+    nj_route_id:
+      type: integer(8)
+      unsigned: true
+      notnull: false
+    nj_trip_id:
+      type: integer(8)
+      unsigned: true
+      notnull: false
+    nj_stop_time_id:
+      type: integer(8)
+      unsigned: true
+      notnull: false
+    average_speed:
+      type: decimal(5)
+      scale: 2
+      unsigned: true
+      notnull: true
+    time_delay:
+      type: time
+      notnull: false
+    created_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    NjNotificationType:
+      foreignAlias: Njnotifications
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjRoute:
+      foreignAlias: NjNotifications
+    NjTrip:
+      foreignAlias: Njnotifications
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    NjStopTime:
+      foreignAlias: NjNotifications
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    sfGuardUser:
+      local: nj_route_id
+      foreign: user_id
+      type: many
+      alias: sfGuardUsers
+      foreignAlias: NjNotificationsSubscribed
+      class: sfGuardUser
+      refClass: NjNotificationSubscriber
+
+NjNotificationType:
+  connection: doctrine
+  tableName: nj_notification_type
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(8)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: true
+    description:
+      type: string(40)
+      notnull: true
+    created_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    updated_at:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+
+NjNotificationSubscriber:
+  connection: doctrine
+  tableName: nj_notification_subscriber
+  actAs: { Timestampable: ~ }
+  columns:
+    nj_route_id:
+       type: integer(8)
+       fixed: false
+       unsigned: true
+       notnull: true  
+       primary: true
+    user_id:
+      type: integer
+      primary: true
+  relations:
+    NjNotification:
+      local: nj_route_id
+      foreign: nj_route_id
+      foreignAlias: NjNotificationSubscriber
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    sfGuardUser:
+      foreignAlias: NjNotificationSubscriber
+      local: user_id
+      foreign: id
+###################

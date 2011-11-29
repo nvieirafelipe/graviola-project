@@ -1,0 +1,8 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+all:
+  
+  stylesheets:    [ /sfAdminThemejRollerPlugin/css/jquery/flick/jquery-ui.custom.css ]
+
+  javascripts:    [ jquery-ui.datepicker.min.js ]

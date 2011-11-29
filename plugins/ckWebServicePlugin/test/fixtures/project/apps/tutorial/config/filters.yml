@@ -1,0 +1,13 @@
+rendering: ~
+security:  ~
+
+# insert your own filters here
+soap_parameter:
+  class: ckSoapParameterFilter
+  param:    
+    condition: %APP_ENABLE_SOAP_PARAMETER%
+
+cache:     ~
+common:
+  class: sfCommonFilter
+execution: ~

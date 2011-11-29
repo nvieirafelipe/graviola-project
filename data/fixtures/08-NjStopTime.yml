@@ -1,0 +1,1254 @@
+NjStopTime:
+  NjStopTime_1:
+    NjTrip: NjTrip_1
+    NjStop: NjStop_1
+    arrival_time: '12:00:00'
+    departure_time: '12:05:00'
+    stop_sequence: '0'
+    description: 'Stop 1 - Trip 1 - PUCC'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-08-31 02:40:07'
+    updated_at: '2011-08-31 02:40:07'
+  NjStopTime_2:
+    NjTrip: NjTrip_1
+    NjStop: NjStop_2
+    arrival_time: '12:30:00'
+    departure_time: '12:35:00'
+    stop_sequence: '1'
+    description: 'Stop 2 - Trip 1 - PUCC'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-08-31 02:40:07'
+    updated_at: '2011-08-31 02:40:07'
+  NjStopTime_3:
+    NjTrip: NjTrip_1
+    NjStop: NjStop_3
+    arrival_time: '13:00:00'
+    departure_time: '13:05:00'
+    stop_sequence: '2'
+    description: 'Stop 3 - Trip 1 - PUCC'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-08-31 02:40:07'
+    updated_at: '2011-08-31 02:40:07'
+  NjStopTime_4:
+    NjTrip: NjTrip_1
+    NjStop: NjStop_4
+    arrival_time: '13:30:00'
+    departure_time: '13:35:00'
+    stop_sequence: '3'
+    description: 'Stop 4 - Trip 1 - PUCC'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-08-31 02:40:07'
+    updated_at: '2011-08-31 02:40:07'
+  NjStopTime_5:
+    NjTrip: NjTrip_1
+    NjStop: NjStop_5
+    arrival_time: '14:00:00'
+    departure_time: '14:05:00'
+    stop_sequence: '4'
+    description: 'Stop 5 - Trip 1 - PUCC'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-08-31 02:40:07'
+    updated_at: '2011-08-31 02:40:07'  
+#trip 5
+  NjStopTime_6:
+    NjTrip: NjTrip_5
+    NjStop: NjStop_6
+    arrival_time: '9:00:00'
+    departure_time: '9:05:00'
+    stop_sequence: '0'
+    description: 'Stop 6 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_7:
+    NjTrip: NjTrip_5
+    NjStop: NjStop_7
+    arrival_time: '9:05:00'
+    departure_time: '9:10:00'
+    stop_sequence: '1'
+    description: 'Stop 7 Av. Pedro Alvares Cabral'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_8:
+    NjTrip: NjTrip_5
+    NjStop: NjStop_8
+    arrival_time: '9:15:00'
+    departure_time: '9:20:00'
+    stop_sequence: '2'
+    description: 'Stop 8 Av. Brig. Faria Lima'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 6
+  NjStopTime_9:
+    NjTrip: NjTrip_6
+    NjStop: NjStop_6
+    arrival_time: '10:00:00'
+    departure_time: '10:05:00'
+    stop_sequence: '2'
+    description: 'Stop 9 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_10:
+    NjTrip: NjTrip_6
+    NjStop: NjStop_7
+    arrival_time: '10:05:00'
+    departure_time: '10:10:00'
+    stop_sequence: '1'
+    description: 'Stop 10 Av. Pedro Alvares Cabral'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_11:
+    NjTrip: NjTrip_6
+    NjStop: NjStop_8
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '0'
+    description: 'Stop 11 Av. Brig. Faria Lima'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 7
+  NjStopTime_12:
+    NjTrip: NjTrip_7
+    NjStop: NjStop_6
+    arrival_time: '9:00:00'
+    departure_time: '9:05:00'
+    stop_sequence: '0'
+    description: 'Stop 12 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_13:
+    NjTrip: NjTrip_7
+    NjStop: NjStop_7
+    arrival_time: '9:05:00'
+    departure_time: '9:10:00'
+    stop_sequence: '1'
+    description: 'Stop 13 Av. Pedro Alvares Cabral'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_14:
+    NjTrip: NjTrip_7
+    NjStop: NjStop_8
+    arrival_time: '9:15:00'
+    departure_time: '9:20:00'
+    stop_sequence: '2'
+    description: 'Stop 14 Av. Brig. Faria Lima'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 8
+  NjStopTime_15:
+    NjTrip: NjTrip_8
+    NjStop: NjStop_6
+    arrival_time: '10:00:00'
+    departure_time: '10:05:00'
+    stop_sequence: '2'
+    description: 'Stop 15 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_16:
+    NjTrip: NjTrip_8
+    NjStop: NjStop_7
+    arrival_time: '10:05:00'
+    departure_time: '10:10:00'
+    stop_sequence: '1'
+    description: 'Stop 16 Av. Pedro Alvares Cabral'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_17:
+    NjTrip: NjTrip_8
+    NjStop: NjStop_8
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '0'
+    description: 'Stop 17 Av. Brig. Faria Lima'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 9
+  NjStopTime_18:
+    NjTrip: NjTrip_9
+    NjStop: NjStop_9
+    arrival_time: '13:00:00'
+    departure_time: '13:05:00'
+    stop_sequence: '0'
+    description: 'Stop 18 Partida Acesso para Rodovia SP'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_19:
+    NjTrip: NjTrip_9
+    NjStop: NjStop_10
+    arrival_time: '13:10:00'
+    departure_time: '13:15:00'
+    stop_sequence: '1'
+    description: 'Stop 19 Partida Acesso para R Inúbia Paulista'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_20:
+    NjTrip: NjTrip_9
+    NjStop: NjStop_11
+    arrival_time: '13:15:00'
+    departure_time: '13:20:00'
+    stop_sequence: '2'
+    description: 'Stop 20 Av. Cruzeiro Do Sul, 1801'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_21:
+    NjTrip: NjTrip_9
+    NjStop: NjStop_12
+    arrival_time: '13:15:00'
+    departure_time: '13:20:00'
+    stop_sequence: '3'
+    description: 'Stop 21 Tucuma'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 10
+  NjStopTime_22:
+    NjTrip: NjTrip_10
+    NjStop: NjStop_9
+    arrival_time: '14:00:00'
+    departure_time: '14:05:00'
+    stop_sequence: '3'
+    description: 'Stop 18 Partida Acesso para Rodovia SP'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_23:
+    NjTrip: NjTrip_10
+    NjStop: NjStop_10
+    arrival_time: '14:10:00'
+    departure_time: '14:15:00'
+    stop_sequence: '2'
+    description: 'Stop 19 Partida Acesso para R Inúbia Paulista'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_24:
+    NjTrip: NjTrip_10
+    NjStop: NjStop_11
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '1'
+    description: 'Stop 20 Av. Cruzeiro Do Sul, 1801'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_25:
+    NjTrip: NjTrip_10
+    NjStop: NjStop_12
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '0'
+    description: 'Stop 21 Tucuma'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 11
+  NjStopTime_26:
+    NjTrip: NjTrip_11
+    NjStop: NjStop_9
+    arrival_time: '13:00:00'
+    departure_time: '13:05:00'
+    stop_sequence: '0'
+    description: 'Stop 26 Partida Acesso para Rodovia SP'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_27:
+    NjTrip: NjTrip_11
+    NjStop: NjStop_10
+    arrival_time: '13:10:00'
+    departure_time: '13:15:00'
+    stop_sequence: '1'
+    description: 'Stop 27 Partida Acesso para R Inúbia Paulista'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_28:
+    NjTrip: NjTrip_11
+    NjStop: NjStop_11
+    arrival_time: '13:15:00'
+    departure_time: '13:20:00'
+    stop_sequence: '2'
+    description: 'Stop 28 Av. Cruzeiro Do Sul, 1801'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_29:
+    NjTrip: NjTrip_11
+    NjStop: NjStop_12
+    arrival_time: '13:15:00'
+    departure_time: '13:20:00'
+    stop_sequence: '3'
+    description: 'Stop 29 Tucuma'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 12
+  NjStopTime_30:
+    NjTrip: NjTrip_12
+    NjStop: NjStop_9
+    arrival_time: '14:00:00'
+    departure_time: '14:05:00'
+    stop_sequence: '3'
+    description: 'Stop 30 Partida Acesso para Rodovia SP'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_31:
+    NjTrip: NjTrip_12
+    NjStop: NjStop_10
+    arrival_time: '14:10:00'
+    departure_time: '14:15:00'
+    stop_sequence: '2'
+    description: 'Stop 31 Partida Acesso para R Inúbia Paulista'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_32:
+    NjTrip: NjTrip_12
+    NjStop: NjStop_11
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '1'
+    description: 'Stop 32 Av. Cruzeiro Do Sul, 1801'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_33:
+    NjTrip: NjTrip_12
+    NjStop: NjStop_12
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '0'
+    description: 'Stop 33 Tucuma'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 13
+  NjStopTime_34:
+    NjTrip: NjTrip_13
+    NjStop: NjStop_13
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '0'
+    description: 'Stop 34 Hélio Smidt, ponto 9'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_35:
+    NjTrip: NjTrip_13
+    NjStop: NjStop_14
+    arrival_time: '14:25:00'
+    departure_time: '14:30:00'
+    stop_sequence: '1'
+    description: 'Stop 35 Av. Odair Santanelli, 84‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_36:
+    NjTrip: NjTrip_13
+    NjStop: NjStop_15
+    arrival_time: '14:35:00'
+    departure_time: '14:40:00'
+    stop_sequence: '2'
+    description: 'Stop 36 R. da Coroa, 289'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_37:
+    NjTrip: NjTrip_13
+    NjStop: NjStop_16
+    arrival_time: '14:45:00'
+    departure_time: '14:50:00'
+    stop_sequence: '3'
+    description: 'Stop 37 Passarela do Samba Adoniran Barbosa'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_38:
+    NjTrip: NjTrip_13
+    NjStop: NjStop_17
+    arrival_time: '14:55:00'
+    departure_time: '15:00:00'
+    stop_sequence: '4'
+    description: 'Stop 38 Av. do Estado, 958'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 14
+  NjStopTime_39:
+    NjTrip: NjTrip_14
+    NjStop: NjStop_13
+    arrival_time: '16:15:00'
+    departure_time: '16:20:00'
+    stop_sequence: '4'
+    description: 'Stop 39 Hélio Smidt, ponto 9'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_40:
+    NjTrip: NjTrip_14
+    NjStop: NjStop_14
+    arrival_time: '16:25:00'
+    departure_time: '16:30:00'
+    stop_sequence: '3'
+    description: 'Stop 40 Av. Odair Santanelli, 84‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_41:
+    NjTrip: NjTrip_14
+    NjStop: NjStop_15
+    arrival_time: '16:35:00'
+    departure_time: '16:40:00'
+    stop_sequence: '2'
+    description: 'Stop 41 R. da Coroa, 289'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_42:
+    NjTrip: NjTrip_14
+    NjStop: NjStop_16
+    arrival_time: '16:45:00'
+    departure_time: '16:50:00'
+    stop_sequence: '1'
+    description: 'Stop 42 Passarela do Samba Adoniran Barbosa'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_43:
+    NjTrip: NjTrip_14
+    NjStop: NjStop_17
+    arrival_time: '16:55:00'
+    departure_time: '17:00:00'
+    stop_sequence: '0'
+    description: 'Stop 43 Av. do Estado, 958'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 15
+  NjStopTime_44:
+    NjTrip: NjTrip_15
+    NjStop: NjStop_13
+    arrival_time: '14:15:00'
+    departure_time: '14:20:00'
+    stop_sequence: '0'
+    description: 'Stop 44 Hélio Smidt, ponto 9'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_45:
+    NjTrip: NjTrip_15
+    NjStop: NjStop_14
+    arrival_time: '14:25:00'
+    departure_time: '14:30:00'
+    stop_sequence: '1'
+    description: 'Stop 45 Av. Odair Santanelli, 84‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_46:
+    NjTrip: NjTrip_15
+    NjStop: NjStop_15
+    arrival_time: '14:35:00'
+    departure_time: '14:40:00'
+    stop_sequence: '2'
+    description: 'Stop 46 R. da Coroa, 289'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_47:
+    NjTrip: NjTrip_15
+    NjStop: NjStop_16
+    arrival_time: '14:45:00'
+    departure_time: '14:50:00'
+    stop_sequence: '3'
+    description: 'Stop 47 Passarela do Samba Adoniran Barbosa'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_48:
+    NjTrip: NjTrip_15
+    NjStop: NjStop_17
+    arrival_time: '14:55:00'
+    departure_time: '15:00:00'
+    stop_sequence: '4'
+    description: 'Stop 48 Av. do Estado, 958'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 16
+  NjStopTime_49:
+    NjTrip: NjTrip_16
+    NjStop: NjStop_13
+    arrival_time: '16:15:00'
+    departure_time: '16:20:00'
+    stop_sequence: '4'
+    description: 'Stop 49 Hélio Smidt, ponto 9'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_50:
+    NjTrip: NjTrip_16
+    NjStop: NjStop_14
+    arrival_time: '16:25:00'
+    departure_time: '16:30:00'
+    stop_sequence: '3'
+    description: 'Stop 50 Av. Odair Santanelli, 84‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_51:
+    NjTrip: NjTrip_16
+    NjStop: NjStop_15
+    arrival_time: '16:35:00'
+    departure_time: '16:40:00'
+    stop_sequence: '2'
+    description: 'Stop 51 R. da Coroa, 289'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_52:
+    NjTrip: NjTrip_16
+    NjStop: NjStop_16
+    arrival_time: '16:45:00'
+    departure_time: '16:50:00'
+    stop_sequence: '1'
+    description: 'Stop 52 Passarela do Samba Adoniran Barbosa'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+  NjStopTime_53:
+    NjTrip: NjTrip_16
+    NjStop: NjStop_17
+    arrival_time: '16:55:00'
+    departure_time: '17:00:00'
+    stop_sequence: '0'
+    description: 'Stop 53 Av. do Estado, 958'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+#trip 17
+  NjStopTime_54:
+    NjTrip: NjTrip_17
+    NjStop: NjStop_19
+    arrival_time: '20:00:00'
+    departure_time: '20:05:00'
+    stop_sequence: '0'
+    description: 'Stop 54 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+  NjStopTime_55:
+    NjTrip: NjTrip_17
+    NjStop: NjStop_20
+    arrival_time: '20:10:00'
+    departure_time: '20:15:00'
+    stop_sequence: '1'
+    description: 'Stop 55 Av. Prestes Maia, 526'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+#trip 18
+  NjStopTime_56:
+    NjTrip: NjTrip_18
+    NjStop: NjStop_19
+    arrival_time: '20:30:00'
+    departure_time: '20:35:00'
+    stop_sequence: '1'
+    description: 'Stop 56 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+  NjStopTime_57:
+    NjTrip: NjTrip_18
+    NjStop: NjStop_20
+    arrival_time: '20:40:00'
+    departure_time: '20:45:00'
+    stop_sequence: '0'
+    description: 'Stop 57 Av. Prestes Maia, 526'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+#trip 19
+  NjStopTime_58:
+    NjTrip: NjTrip_19
+    NjStop: NjStop_19
+    arrival_time: '20:00:00'
+    departure_time: '20:05:00'
+    stop_sequence: '0'
+    description: 'Stop 58 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+  NjStopTime_59:
+    NjTrip: NjTrip_19
+    NjStop: NjStop_20
+    arrival_time: '20:10:00'
+    departure_time: '20:15:00'
+    stop_sequence: '1'
+    description: 'Stop 59 Av. Prestes Maia, 526'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+#trip 20
+  NjStopTime_60:
+    NjTrip: NjTrip_20
+    NjStop: NjStop_19
+    arrival_time: '20:30:00'
+    departure_time: '20:35:00'
+    stop_sequence: '1'
+    description: 'Stop 60 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:00'
+    updated_at: '2011-11-01 20:40:00'
+  NjStopTime_61:
+    NjTrip: NjTrip_20
+    NjStop: NjStop_20
+    arrival_time: '20:40:00'
+    departure_time: '20:45:00'
+    stop_sequence: '0'
+    description: 'Stop 61 Av. Prestes Maia, 526'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 21
+  NjStopTime_62:
+    NjTrip: NjTrip_21
+    NjStop: NjStop_21
+    arrival_time: '21:30:00'
+    departure_time: '21:40:00'
+    stop_sequence: '0'
+    description: 'Stop 62 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_63:
+    NjTrip: NjTrip_21
+    NjStop: NjStop_22
+    arrival_time: '21:50:00'
+    departure_time: '22:00:00'
+    stop_sequence: '1'
+    description: 'Stop 63 Av. Vinte E Tres De Maio'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_64:
+    NjTrip: NjTrip_21
+    NjStop: NjStop_23
+    arrival_time: '22:10:00'
+    departure_time: '22:20:00'
+    stop_sequence: '2'
+    description: 'Stop 64 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 22
+  NjStopTime_62:
+    NjTrip: NjTrip_22
+    NjStop: NjStop_21
+    arrival_time: '23:00:00'
+    departure_time: '23:10:00'
+    stop_sequence: '2'
+    description: 'Stop 62 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_63:
+    NjTrip: NjTrip_22
+    NjStop: NjStop_22
+    arrival_time: '23:20:00'
+    departure_time: '23:30:00'
+    stop_sequence: '1'
+    description: 'Stop 63 Av. Vinte E Tres De Maio'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_64:
+    NjTrip: NjTrip_22
+    NjStop: NjStop_23
+    arrival_time: '23:40:00'
+    departure_time: '23:50:00'
+    stop_sequence: '0'
+    description: 'Stop 64 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 23
+  NjStopTime_65:
+    NjTrip: NjTrip_23
+    NjStop: NjStop_21
+    arrival_time: '21:30:00'
+    departure_time: '21:40:00'
+    stop_sequence: '0'
+    description: 'Stop 65 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_66:
+    NjTrip: NjTrip_23
+    NjStop: NjStop_22
+    arrival_time: '21:50:00'
+    departure_time: '22:00:00'
+    stop_sequence: '1'
+    description: 'Stop 66 Av. Vinte E Tres De Maio'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_67:
+    NjTrip: NjTrip_23
+    NjStop: NjStop_23
+    arrival_time: '22:10:00'
+    departure_time: '22:20:00'
+    stop_sequence: '2'
+    description: 'Stop 67 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 24
+  NjStopTime_68:
+    NjTrip: NjTrip_24
+    NjStop: NjStop_21
+    arrival_time: '23:00:00'
+    departure_time: '23:10:00'
+    stop_sequence: '2'
+    description: 'Stop 68 Partida Av. Cruzeiro do Sul, 1864'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_69:
+    NjTrip: NjTrip_24
+    NjStop: NjStop_22
+    arrival_time: '23:20:00'
+    departure_time: '23:30:00'
+    stop_sequence: '1'
+    description: 'Stop 69 Av. Vinte E Tres De Maio'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_70:
+    NjTrip: NjTrip_24
+    NjStop: NjStop_23
+    arrival_time: '23:40:00'
+    departure_time: '23:50:00'
+    stop_sequence: '0'
+    description: 'Stop 70 Av. Washington Luiz, 6808'
+    detail: 'Loren ipsun!'
+    dist_traveled: '15.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+ #trip 25
+  NjStopTime_71:
+    NjTrip: NjTrip_25
+    NjStop: NjStop_24
+    arrival_time: '12:00:00'
+    departure_time: '12:10:00'
+    stop_sequence: '0'
+    description: 'Stop 71 - Itaim Paulista - Term. Pq. D.pedro'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_72:
+    NjTrip: NjTrip_25
+    NjStop: NjStop_25
+    arrival_time: '12:15:00'
+    departure_time: '12:20:00'
+    stop_sequence: '1'
+    description: 'Stop 72 - Ac. Acesso A‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_73:
+    NjTrip: NjTrip_25
+    NjStop: NjStop_26
+    arrival_time: '12:25:00'
+    departure_time: '12:30:00'
+    stop_sequence: '2'
+    description: 'Stop 73 - Av. Cde. De Frontin'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_74:
+    NjTrip: NjTrip_25
+    NjStop: NjStop_27
+    arrival_time: '12:35:00'
+    departure_time: '12:40:00'
+    stop_sequence: '3'
+    description: 'Stop 74 - Av. Cde. De Frontin, 1938‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+#trip 26
+  NjStopTime_75:
+    NjTrip: NjTrip_26
+    NjStop: NjStop_24
+    arrival_time: '12:50:00'
+    departure_time: '13:00:00'
+    stop_sequence: '3'
+    description: 'Stop 71 - Itaim Paulista - Term. Pq. D.pedro'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_76:
+    NjTrip: NjTrip_26
+    NjStop: NjStop_25
+    arrival_time: '13:10:00'
+    departure_time: '13:15:00'
+    stop_sequence: '2'
+    description: 'Stop 72 - Ac. Acesso A‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_77:
+    NjTrip: NjTrip_26
+    NjStop: NjStop_26
+    arrival_time: '13:20:00'
+    departure_time: '12:35:00'
+    stop_sequence: '1'
+    description: 'Stop 73 - Av. Cde. De Frontin'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_78:
+    NjTrip: NjTrip_26
+    NjStop: NjStop_27
+    arrival_time: '13:40:00'
+    departure_time: '13:45:00'
+    stop_sequence: '0'
+    description: 'Stop 74 - Av. Cde. De Frontin, 1938‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '8.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  #Trip: 29
+  NjStopTime_79:
+    NjTrip: NjTrip_29
+    NjStop: NjStop_28
+    arrival_time: '10:00:00'
+    departure_time: '10:10:00'
+    stop_sequence: '0'
+    description: 'Stop 79 - R. Simas Pimenta, 2‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_80:
+    NjTrip: NjTrip_29
+    NjStop: NjStop_29
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '1'
+    description: 'Stop 80 - Av. Azevedo, 118‎‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_81:
+    NjTrip: NjTrip_29
+    NjStop: NjStop_30
+    arrival_time: '10:25:00'
+    departure_time: '10:30:00'
+    stop_sequence: '2'
+    description: 'Stop 80 - Av. Azevedo, 462‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  #Trip: 30
+  NjStopTime_80:
+    NjTrip: NjTrip_30
+    NjStop: NjStop_28
+    arrival_time: '10:00:00'
+    departure_time: '10:10:00'
+    stop_sequence: '2'
+    description: 'Stop 80 - R. Simas Pimenta, 2‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_81:
+    NjTrip: NjTrip_30
+    NjStop: NjStop_29
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '1'
+    description: 'Stop 81 - Av. Azevedo, 118‎‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_82:
+    NjTrip: NjTrip_30
+    NjStop: NjStop_30
+    arrival_time: '10:25:00'
+    departure_time: '10:30:00'
+    stop_sequence: '0'
+    description: 'Stop 82 - Av. Azevedo, 462‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  #Trip: 31
+  NjStopTime_83:
+    NjTrip: NjTrip_31
+    NjStop: NjStop_28
+    arrival_time: '10:35:00'
+    departure_time: '10:40:00'
+    stop_sequence: '0'
+    description: 'Stop 83 - R. Simas Pimenta, 2‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_84:
+    NjTrip: NjTrip_31
+    NjStop: NjStop_29
+    arrival_time: '10:45:00'
+    departure_time: '10:50:00'
+    stop_sequence: '1'
+    description: 'Stop 83 - Av. Azevedo, 118‎‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_85:
+    NjTrip: NjTrip_31
+    NjStop: NjStop_30
+    arrival_time: '10:55:00'
+    departure_time: '11:00:00'
+    stop_sequence: '2'
+    description: 'Stop 84 - Av. Azevedo, 462‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 32
+  NjStopTime_86:
+    NjTrip: NjTrip_32
+    NjStop: NjStop_28
+    arrival_time: '10:05:00'
+    departure_time: '10:10:00'
+    stop_sequence: '2'
+    description: 'Stop 86 - R. Simas Pimenta, 2‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_87:
+    NjTrip: NjTrip_32
+    NjStop: NjStop_29
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '1'
+    description: 'Stop 87 - Av. Azevedo, 118‎‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_88:
+    NjTrip: NjTrip_32
+    NjStop: NjStop_30
+    arrival_time: '10:25:00'
+    departure_time: '10:30:00'
+    stop_sequence: '0'
+    description: 'Stop 88 - Av. Azevedo, 462‎'
+    detail: 'Loren ipsun!'
+    dist_traveled: '5.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 33
+  NjStopTime_89:
+    NjTrip: NjTrip_33
+    NjStop: NjStop_31
+    arrival_time: '10:05:00'
+    departure_time: '10:10:00'
+    stop_sequence: '0'
+    description: 'Stop 89 - Luz'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_90:
+    NjTrip: NjTrip_33
+    NjStop: NjStop_32
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '1'
+    description: 'Stop 90 - Sao Bento'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_91:
+    NjTrip: NjTrip_33
+    NjStop: NjStop_33
+    arrival_time: '10:25:00'
+    departure_time: '10:30:00'
+    stop_sequence: '2'
+    description: 'Stop 91 - Se'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 34
+  NjStopTime_92:
+    NjTrip: NjTrip_34
+    NjStop: NjStop_31
+    arrival_time: '10:35:00'
+    departure_time: '10:40:00'
+    stop_sequence: '2'
+    description: 'Stop 89 - Luz'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_93:
+    NjTrip: NjTrip_34
+    NjStop: NjStop_32
+    arrival_time: '10:45:00'
+    departure_time: '10:50:00'
+    stop_sequence: '1'
+    description: 'Stop 90 - Sao Bento'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_94:
+    NjTrip: NjTrip_34
+    NjStop: NjStop_33
+    arrival_time: '10:55:00'
+    departure_time: '11:00:00'
+    stop_sequence: '0'
+    description: 'Stop 91 - Se'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 35
+  NjStopTime_95:
+    NjTrip: NjTrip_35
+    NjStop: NjStop_34
+    arrival_time: '10:05:00'
+    departure_time: '10:10:00'
+    stop_sequence: '0'
+    description: 'Stop 95 - Se'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_96:
+    NjTrip: NjTrip_35
+    NjStop: NjStop_35
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '1'
+    description: 'Stop 96 - Dom Pedro II'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_97:
+    NjTrip: NjTrip_35
+    NjStop: NjStop_36
+    arrival_time: '10:25:00'
+    departure_time: '10:30:00'
+    stop_sequence: '2'
+    description: 'Stop 97 - Bras'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 36
+  NjStopTime_98:
+    NjTrip: NjTrip_36
+    NjStop: NjStop_34
+    arrival_time: '10:35:00'
+    departure_time: '10:40:00'
+    stop_sequence: '2'
+    description: 'Stop 98 - Se'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_99:
+    NjTrip: NjTrip_36
+    NjStop: NjStop_35
+    arrival_time: '10:45:00'
+    departure_time: '10:50:00'
+    stop_sequence: '1'
+    description: 'Stop 99 - Dom Pedro II'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_100:
+    NjTrip: NjTrip_36
+    NjStop: NjStop_36
+    arrival_time: '10:55:00'
+    departure_time: '11:00:00'
+    stop_sequence: '0'
+    description: 'Stop 100 - Bras'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 37
+  NjStopTime_101:
+    NjTrip: NjTrip_37
+    NjStop: NjStop_37
+    arrival_time: '08:00:00'
+    departure_time: '08:10:00'
+    stop_sequence: '0'
+    description: 'Stop 101 - Luz'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_102:
+    NjTrip: NjTrip_37
+    NjStop: NjStop_38
+    arrival_time: '08:15:00'
+    departure_time: '08:20:00'
+    stop_sequence: '1'
+    description: 'Stop 102 - Bras'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_103:
+    NjTrip: NjTrip_37
+    NjStop: NjStop_39
+    arrival_time: '08:25:00'
+    departure_time: '08:30:00'
+    stop_sequence: '2'
+    description: 'Stop 103 - Mooca'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 
+  #Trip: 38
+  NjStopTime_104:
+    NjTrip: NjTrip_38
+    NjStop: NjStop_37
+    arrival_time: '08:35:00'
+    departure_time: '08:40:00'
+    stop_sequence: '2'
+    description: 'Stop 104 - Luz'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'
+  NjStopTime_105:
+    NjTrip: NjTrip_38
+    NjStop: NjStop_38
+    arrival_time: '08:45:00'
+    departure_time: '08:50:00'
+    stop_sequence: '1'
+    description: 'Stop 105 - Bras'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07'  
+  NjStopTime_106:
+    NjTrip: NjTrip_38
+    NjStop: NjStop_39
+    arrival_time: '08:55:00'
+    departure_time: '09:00:00'
+    stop_sequence: '0'
+    description: 'Stop 106 - Mooca'
+    detail: 'Loren ipsun!'
+    dist_traveled: '10.00'
+    created_at: '2011-11-01 20:40:07'
+    updated_at: '2011-11-01 20:40:07' 

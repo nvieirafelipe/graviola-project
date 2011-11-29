@@ -1,0 +1,7 @@
+all:
+  uploads_profile_pictures: /uploads/profile-pictures/
+
+  sf_guard_plugin:
+    profile_class: NjUserProfile
+    profile_field_name: user_id
+    remember_cookie_name:   graviolaRememberMe

@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           NjVehicle
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Vehicle
+    plural:                Vehicles
+    route_prefix:          nj_vehicle
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:    Vehicle List
+        display:  [=id, description, detail]
+        
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
