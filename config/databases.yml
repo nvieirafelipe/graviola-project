@@ -5,6 +5,6 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=graviola
-      username: graviola
-      password: graviola
+      dsn:      mysql:host=tunnel.pagodabox.com:3306;dbname=graviola-db
+      username: matilda
+      password: gHGU75ro
