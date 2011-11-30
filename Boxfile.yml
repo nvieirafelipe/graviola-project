@@ -1,0 +1,31 @@
+web1:
+  ################################################
+  ## GENERAL SETTINGS
+  ################################################
+  shared_writable_dirs:
+      - cache
+      - logs
+ 
+  ################################################
+  ## WEB SPECIFIC SETTINGS
+  ################################################
+  document_root: web
+
+  ################################################
+  ## PHP SPECIFIC SETTINGS
+  ################################################
+  php_version: 5.3.5
+  php_extensions:
+    - intl
+    - mbstring
+    - xsl
+    - apc
+    - mysql
+    - posix
+    - iconv
+    - tokenizer
+    - xml
+    - pdo_mysql
+  php_session_autostart: Off
+  php_short_open_tag: Off
+  magic_quotes_gpc: Off
