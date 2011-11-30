@@ -6,5 +6,5 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn:      mysql:host=tunnel.pagodabox.com:3306;dbname=graviola-db
-      username: matilda
-      password: gHGU75ro
+      username: lourie
+      password: uKPizMpg
