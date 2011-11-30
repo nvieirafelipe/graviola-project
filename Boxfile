@@ -11,5 +11,5 @@ web1:
   ################################################
   document_root: web
 
-php_extensions:
-  - mysql
+  php_extensions:
+    - mysql
