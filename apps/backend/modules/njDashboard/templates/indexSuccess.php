@@ -2,7 +2,7 @@
   <div id="graph_canvas" class="graph_canvas_dashboard"></div>
 </div>
 <div class="column span-12 left">
-    <div class="map_canvas"></div>
+    <div id="map_canvas" class="map_canvas"></div>
 </div>
 <div id="notifications_filter" class="column span-6 right">
   <h1>Notifications</h1>
@@ -59,8 +59,4 @@
       </th>
     </tfoot>
   </table>
-</div>
-<div class="column span-1 box last">
-  <h2>Create temporary trips</h2>
-    <?php echo $form->render(); ?>
 </div>

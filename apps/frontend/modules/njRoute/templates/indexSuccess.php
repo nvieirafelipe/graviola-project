@@ -1,5 +1,5 @@
 <h1>Routes</h1>
-<div id="routes_filter" class="column span-6">
+<div id="routes_filter" class="column span-5 append-1">
     <?php echo $nj_routesFormFilter['nj_transport_mode_id']->render(array('class'=>'select-box')); ?> <br />
     <ul id="routes" class="box">
         <?php foreach ($nj_routes as $index => $nj_route): ?>
@@ -13,10 +13,10 @@
 </div>
 
 <div class="column span-12">
-    <div class="map_canvas"></div>
+    <div class="map_canvas" id  ="map_canvas"></div>
 </div>
 
-<div id="notifications_filter" class="column span-6 last">
+<div id="notifications_filter" class="column span-6 push-1 last">
   <h1>Notifications</h1>
   <?php if(!$nj_notifications->count()>0):?>
       <div id="notifications" class="box">

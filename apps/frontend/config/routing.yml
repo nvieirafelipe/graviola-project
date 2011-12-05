@@ -1,6 +1,11 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+# Panel Control
+panel_control:
+  url:   /panel-controls
+  param: { module: njPanelControl, action: index }
+
 # Api Rules
 api_maps:
   url:    /api/maps

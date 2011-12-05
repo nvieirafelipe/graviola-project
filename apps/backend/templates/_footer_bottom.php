@@ -13,9 +13,9 @@
   <div class="column span-6 colborder">
     <h3 class="">App config.</h3>
     <p>Would like to configure the application ? <a href="<?php echo url_for('app_config'); ?>" class="inline link small" style="padding: 0;">click here</a>.</p>
-    <p><a class="link small" href="<?php echo url_for('nj_section_routing'); ?>">Manage sections</a><br />
-       <a class="link small" href="<?php echo url_for('nj_menu_item_routing'); ?>">Manage menu items</a><br />
-       <a class="link small" href="<?php echo url_for('nj_login_group_routing'); ?>">Manage login-group routing</a></p>
+    <p><a class="link medium block" href="<?php echo url_for('nj_section_routing'); ?>">Manage sections</a><br />
+       <a class="link medium block" href="<?php echo url_for('nj_menu_item_routing'); ?>">Manage menu items</a><br />
+       <a class="link medium block" href="<?php echo url_for('nj_login_group_routing'); ?>">Manage login-group routing</a></p>
   </div>
   <div class="column span-4 last">
     <h3 class="">Data simulation.</h3>

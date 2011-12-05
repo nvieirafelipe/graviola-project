@@ -2,4 +2,11 @@
   <?php echo 'About NoJam'; ?>
 <?php end_slot() ?>
 <h1>About NoJam</h1>
-<br />
+<h2>Come aboard, we're expecting you</h2>
+<p>Welcome back, your dreams were your ticket out. Welcome back, to that same old place that you laughed about. Well, the names have all changed since you hung around, but those dreams <a href="#">have remained and</a> they're turned around. Who'd have thought they'd lead ya? Here where we need ya. Yeah, we tease him a lot 'cause we've got him on the spot, welcome back. Welcome back, welcome back, welcome back.</p>
+<p>Our whole universe was in a hot dense state, then nearly fourteen billion years ago expansion started. Wait... The Earth began to cool, the autotrophs began to drool. Neanderthals developed tools, we built a wall (we built the pyramids). Math, science, history, unraveling the mysteries, that all started with <a href="#">the big bang!</a></p>
+<p>What you are about to see is real; the litigants on the screen are not actors. They are genuine citizens who, having filed their claims in a real small claims court, have been persuaded to drop their suits there and have them settled here, in this forum... <a href="#">the People's Court.</a></p>
+<p>Making your way in the world today takes everything you've got. Taking a break from all your worries, sure would <a href="#">help a lot.</a> Wouldn't you like to get away? Sometimes you want to go where everybody knows your name, and they're always glad you came. You wanna be where you can see, our troubles are all the same. You wanna be where everybody knows your name. You wanna go where people know, people are all the same, you wanna go where everybody knows your name.</p>
+<p>Love, exciting and new. Come aboard, we're expecting you. Love, life's sweetest reward. Let it flow, it floats back to you. The Love Boat soon will be making another run. The Love Boat promises something for everyone. Set a course for adventure, your mind on a new romance. Love won't hurt anymore. It's an open smile on a friendly shore. Yes, <a href="#">love! It's love!</a></p>
+<h2>Yeah, we tease him a lot</h2>
+<p>Don't go to bed, with no price on your head. No, no, don't do it. Fon't do the crime, if you can't do the time, yeah, don't do it. And keep your eye on the sparrow, when the going gets narrow. Don't do it, don't do it. Where can I go where the cold winds don't blow, Now. <a href="#">Well, well, well.</a></p>
