@@ -20,9 +20,6 @@ class njApiActions extends sfActions
   
   public function executeTransportFilter(sfWebRequest $request)
   {
-    if(!$this->vehicleTypes = Doctrine_Core::getTable("njVehicleType")->findAll(DOCTRINE_CORE::HYDRATE_ARRAY))
-      throw new sfError404Exception('Vehicle types not found.');
-              
     if(!$this->routes = Doctrine_Core::getTable("njRoute")->findAll(DOCTRINE_CORE::HYDRATE_ARRAY))
       throw new sfError404Exception('Routes not found.');
     
