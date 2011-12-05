@@ -10,3 +10,5 @@ web1:
   ## WEB SPECIFIC SETTINGS
   ################################################
   document_root: web
+  default_gateway: index.php
+  index_list: [index.php]

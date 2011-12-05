@@ -15,5 +15,4 @@
  */
 class NjRoute extends BaseNjRoute
 {
-
 }

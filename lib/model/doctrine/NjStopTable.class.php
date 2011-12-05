@@ -30,7 +30,9 @@ class NjStopTable extends Doctrine_Table
                ->addSelect('s.latitude')
                ->addSelect('s.longitude')
               ->from('NjStop s')
-              ->where('s.nj_route_id = ?', $route);
+              ->innerJoin('s.NjStopTimes st')
+              ->innerJoin('st.NjTrip t')
+              ->where('t.nj_route_id = ?', $route);
 
       return $q->execute();
     }

@@ -126,11 +126,24 @@ function loadRoute(routeSelected) {
     url: 'routes/route.json?id='+ routeSelected,
     dataType: 'json',
     success: function(data) {
-      googleMaps.route = {};
-      googleMaps.route.positions = data.route;
-      googleMaps.route.markers = data.markers;
-      map = $("#map_canvas").calcMapsRoute(googleMaps);
-      googleMaps.markersArray = map.markersArray;
+      map = $('#map_canvas');
+      map.html('');
+      routePath = [];
+      routeStops = [];
+      $.each(data.markers, function(index, value) {
+        routeStops.push({lat:value.position.lat, lng:value.position.lng, desc:value.address});
+      });
+      
+      $.each(data.route, function(index, value){
+        routePath.push({lat:value.position.lat, lng:value.position.lng});
+      });
+      
+      map.googlemaps({
+        editable: false,
+        routePath: routePath,
+        routeStops: routeStops
+      });
+     
     }
   }); 
 }

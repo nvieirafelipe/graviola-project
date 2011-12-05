@@ -27,7 +27,7 @@
 <!--- TEM QUE CARREGAR AQUI OS STOPS NO FORMATO lat;lng;textstop(pode ser html), lat;lng;textstop(pode ser html)--->
 <textarea style="display:none" class="path-stops"><?php print $stop_time_coords; ?></textarea>
 
-<div id="notifications_filter" class="column span-6 last">
+<div id="notifications_filter" class="column span-6 push-1 last">
   <?php if ($sf_user->isAuthenticated()) : ?>
     <?php if(!$subscriber): ?>
       <a id="subscribe" class="link subscribe">Subscribe now</a>
@@ -70,5 +70,5 @@
 </div>
 
 <div class="column span-24 last">
-    <a href="<?php echo url_for('njRoute/index') ?>">Back</a>
+    <a href="<?php echo url_for('njRoute/index') ?>" class="link">Back</a>
 </div>

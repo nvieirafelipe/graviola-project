@@ -126,4 +126,34 @@ class njRouteActions extends sfActions
      
      return $this->renderText("Successfully unsubscribed");
   }
+  
+  public function executeRoute(sfWebRequest $request) {
+    $routes = array();
+;
+    $this->route = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('id'));
+    
+    $poly = explode(';', $this->route->getNjTrips()->getFirst()->getPolyline());
+    for($i = 0; $i < count($poly)-1; $i++)
+    {
+      $coords = explode(',', substr(substr($poly[$i], 1, (strlen($poly[$i])-1)),0,(strlen($poly[$i])-2)));
+      $lat = $coords[0];
+      $lng = substr($coords[1], 1);
+
+      $routes[$lat] = $lng;
+    }
+    
+    //Get Stops
+    $this->stops = Doctrine_Core::getTable('NjStop')->getStopsFromRoute($request->getParameter('id'));
+    $markers = array();
+
+    foreach ($this->stops as $stop)
+    {
+      $markers[] = array('position' => array('lat' => $stop->getLatitude(), 'lng' => $stop->getLongitude()), 'address' => $stop->getDescription());
+      //$markers[$stop->getLatitude()] = $stop->getLongitude();
+    }
+    
+    $result = array('route' => $routes, 'markers' => $markers);
+    
+    $this->result = $result;
+  }
 }
