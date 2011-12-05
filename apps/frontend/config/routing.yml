@@ -44,6 +44,9 @@ nj_search_route:
   url:   /routes
   param: { module: njRoute, action: index }
 
+nj_route_json:
+  url:   /*/routes/route.json
+  param: { module: njRoute, action: route }
   
 
 # No Jam Rules

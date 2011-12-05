@@ -21,8 +21,7 @@ class njApiActions extends sfActions
   public function executeTransportFilter(sfWebRequest $request)
   {
     if(!$this->routes = Doctrine_Core::getTable("njRoute")->findAll(DOCTRINE_CORE::HYDRATE_ARRAY))
-      throw new sfError404Exception('Routes not found.');
-    
+      throw new sfError404Exception('Routes not found.'); 
   }
 
   public function executeLogin(sfWebRequest $request)

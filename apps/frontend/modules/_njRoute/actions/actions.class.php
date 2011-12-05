@@ -28,9 +28,9 @@ class njRouteActions extends sfActions
    */
   public function executeRoute(sfWebRequest $request) {
     $routes = array();
-    $this->positions = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('id'));
+    $this->route = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('id'));
     
-    $poly = explode(';', $this->positions->getPolyline());
+    $poly = explode(';', $this->route->getNjTrips()->getFirst()->getPolyline());
 
     for($i = 0; $i < count($poly)-1; $i++)
     {
