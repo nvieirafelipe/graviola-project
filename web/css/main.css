@@ -25,7 +25,7 @@ tbody tr:nth-child(2n) td, tbody tr.even td { background: none repeat scroll 0 0
 .signin { position: relative; }
 .signin > form > input { position: absolute; margin: 12px; bottom: 42px;  }
 .signin div { width: 130px; margin: 12px 12px 0px 0px; float: left; }
-.signin div.buttons { width: 222px; margin: 36px 0 0 0; }
+.signin div.buttons { width: 82px; margin: 36px 0 0 0; }
 .signin div.extra { clear: left; width: 400px; margin: 0px; float: left; }
 .signin div label { font-size: 12px; }
 

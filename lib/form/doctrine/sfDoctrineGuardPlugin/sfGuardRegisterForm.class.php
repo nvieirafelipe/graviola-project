@@ -15,6 +15,8 @@ class sfGuardRegisterForm extends PluginsfGuardRegisterForm
 {
   public function configure()
   {
+     unset($this['nj_notifications_subscribed_list']);
+     
      $this->widgetSchema['first_name'] = new sfWidgetFormInput(array(), array('class' => 'text'));
      $this->widgetSchema['last_name'] = new sfWidgetFormInput(array(), array('class' => 'text'));
      $this->widgetSchema['email_address'] = new sfWidgetFormInput(array(), array('class' => 'text'));

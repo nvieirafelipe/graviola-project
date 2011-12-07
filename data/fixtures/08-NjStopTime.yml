@@ -89,13 +89,13 @@ NjStopTime:
     created_at: '2011-11-01 20:40:07'
     updated_at: '2011-11-01 20:40:07'
 #trip 6
-  NjStopTime_9:
+  NjStopTime_11:
     NjTrip: NjTrip_6
-    NjStop: NjStop_6
-    arrival_time: '10:00:00'
-    departure_time: '10:05:00'
-    stop_sequence: '2'
-    description: 'Stop 9 Av. Washington Luiz, 6808'
+    NjStop: NjStop_8
+    arrival_time: '10:15:00'
+    departure_time: '10:20:00'
+    stop_sequence: '0'
+    description: 'Stop 11 Av. Brig. Faria Lima'
     detail: 'Loren ipsun!'
     dist_traveled: '15.00'
     created_at: '2011-11-01 20:40:07'
@@ -111,13 +111,13 @@ NjStopTime:
     dist_traveled: '15.00'
     created_at: '2011-11-01 20:40:07'
     updated_at: '2011-11-01 20:40:07'
-  NjStopTime_11:
+  NjStopTime_9:
     NjTrip: NjTrip_6
-    NjStop: NjStop_8
-    arrival_time: '10:15:00'
-    departure_time: '10:20:00'
-    stop_sequence: '0'
-    description: 'Stop 11 Av. Brig. Faria Lima'
+    NjStop: NjStop_6
+    arrival_time: '10:00:00'
+    departure_time: '10:05:00'
+    stop_sequence: '2'
+    description: 'Stop 9 Av. Washington Luiz, 6808'
     detail: 'Loren ipsun!'
     dist_traveled: '15.00'
     created_at: '2011-11-01 20:40:07'
