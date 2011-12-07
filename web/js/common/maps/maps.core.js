@@ -610,6 +610,23 @@
     
   }
   
+  function createRouteMarker(point) {
+    removedMarker = markers.pop();
+    if (removedMarker != null) {
+      removedMarker.setMap(null);
+    }
+    var createdMarker = createSimpleMarker({
+      setMap: true, 
+      lat: point.latLng.lat(), 
+      lng: point.latLng.lng(),
+      infoWindowContent: 'Stop point'
+    });
+    markers.push(createdMarker);
+    $(opts.latitudeSelector).val(point.latLng.lat());
+    $(opts.longitudeSelector).val(point.latLng.lng());
+    
+  }
+  
   $.fn.googlemaps = function(options) {
     //Override the default settings with the values passed on options.
     opts = $.extend({}, $.fn.googlemaps.defaults, options);
@@ -649,6 +666,25 @@
     return map;
   }
   
+  $.fn.routemaps = function(options) {
+    //Override the default settings with the values passed on options.
+    opts = $.extend({}, $.fn.routemaps.defaults, options);
+    
+    map = new google.maps.Map($(this).get(0), opts.mapOptions);
+    if (opts.latitude != '' && opts.longitude != '') {
+      var createdMarker = createSimpleMarker({
+        setMap: true, 
+        lat: opts.latitude, 
+        lng: opts.longitude,
+        infoWindowContent: 'Stop point'
+      });
+      markers.push(createdMarker);
+    }
+    
+    createPointListener = google.maps.event.addListener(map, 'click', createRouteMarker);
+    
+  }
+  
   $.fn.googlemaps.addStopMarker = function(coords) {
     createSimpleMarker(coords);
   }
@@ -674,6 +710,18 @@
     liveTrackingElement: null,
     callbackLiveTracking: null,
     liveTrackingDelay: 4
+  }
+  
+  $.fn.routemaps.defaults = 
+  {
+    latitude: '',
+    longitude: '',
+    mapOptions:
+    {
+      zoom:       7, 
+      mapTypeId:  google.maps.MapTypeId.ROADMAP,
+      center:     new google.maps.LatLng(-22.567566, -47.975715)
+    }
   }
   
 })(jQuery);
