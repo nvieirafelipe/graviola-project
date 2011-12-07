@@ -7,7 +7,7 @@ nj_trip_new_add_stop:
   param: { module: njTrip, action: AddStop }
 
 nj_trip_new_add_stop_time:
-  url:   /trips/new/add-stop-time
+  url:   /trips/edit/add-stop-time
   param: { module: njTrip, action: AddStopTime }
 
 nj_trip_add_stop:
