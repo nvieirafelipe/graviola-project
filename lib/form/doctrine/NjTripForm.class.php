@@ -30,10 +30,13 @@ class NjTripForm extends BaseNjTripForm
   }
   
   // Add new stop time to the trip
-  public function addStopTime($number) 
+  public function addStopTime($number, $stop = NULL) 
   {
     $stop_time = new NjStopTime();
     $stop_time->setNjTrip($this->getObject());
+    if (!empty($stop)) {
+      $stop_time->setNjStop($stop);
+    }
     $stop_time_form = new NjStopTimeForm($stop_time);
    
     if (isset($this->embeddedForms['new'])) 

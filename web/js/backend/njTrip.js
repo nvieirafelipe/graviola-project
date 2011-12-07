@@ -2,7 +2,7 @@ $(document).ready(function() {
   loadMaps();
 });
 
-var addNewStopTime = function(e) {
+/*var addNewStopTime = function(e) {
   $(this).unbind('click'); 
   $(this).fadeOut('normal');
 
@@ -18,7 +18,7 @@ var addNewStopTime = function(e) {
       $('a#addStopTime').click(addNewStopTime);
     });
   }
-}
+}*/
 
 /**
  * Init items  

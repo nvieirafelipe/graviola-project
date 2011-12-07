@@ -470,12 +470,12 @@
             $.ajax({
               url: 'edit/add-stop-time?stop_id=' + $('div.add-stop-wrapper select#nj_stop_id').val() +'&num=' + numberStops,
               success: function(data){
+                
                 $('div.sf_admin_form_field_NjStopTimes table tbody:eq(0)').append('<tr><th>New Stop</th><td>' + data + '</td></tr>').hide();
                 
                 var njStopTime = $(data).clone(true);
                 latitude = $('input#nj_trip_new_' + numberStops + '_nj_stop_latitude', njStopTime).val();
                 longitude = $('input#nj_trip_new_' + numberStops + '_nj_stop_longitude', njStopTime).val();
-                
                 var holder = $('<div class="holder-stop-' + numberStops + '"></div>');
                 overflow = $('<div style="overflow:auto;"></div>');
                 
