@@ -1,4 +1,4 @@
-<a href="<?php echo url_for('nj_user_profile_edit'); ?>" class="link small edit_profile" title="Edit Profile">Edit Profile</a>
+<a href="<?php echo url_for('njUserProfile/edit?id='.$nj_user_profile->getId()); ?>" class="link small edit_profile" title="Edit Profile">Edit Profile</a>
 <br />
 <div class="column box block">
   <?php if($nj_user_profile->getPicture()): ?>

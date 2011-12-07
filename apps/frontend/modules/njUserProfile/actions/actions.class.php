@@ -15,7 +15,7 @@ class njUserProfileActions extends sfActions
 {
   public function executeShow(sfWebRequest $request)
   {
-    $this->nj_user_profile = $this->getRoute()->getObject();
+    $this->nj_user_profile = Doctrine_Core::getTable('NjUserProfile')->find($request->getParameter('id'));
     $this->forward404Unless($this->nj_user_profile);
   }
 
@@ -32,7 +32,7 @@ class njUserProfileActions extends sfActions
 
   public function executeEdit(sfWebRequest $request)
   {
-    $this->forward404Unless($nj_user_profile = $this->getRoute()->getObject(), sprintf('Object nj_user_profile does not exist (%s).', $request->getParameter('id')));
+    $this->forward404Unless($nj_user_profile = Doctrine_Core::getTable('NjUserProfile')->find($request->getParameter('id')), sprintf('Object nj_user_profile does not exist (%s).', $request->getParameter('id')));
     $this->form = new NjUserProfileForm($nj_user_profile);
   }
 
