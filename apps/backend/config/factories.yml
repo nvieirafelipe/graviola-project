@@ -19,14 +19,7 @@ test:
     param:
       send_http_headers: false
 
-  mailer:
-    param:
-      delivery_strategy: none
-
 dev:
-  mailer:
-    param:
-      delivery_strategy: none
 
 all:
   routing:
@@ -46,14 +39,15 @@ all:
     param:
       session_name: graviola
 
-##TODO set username and password
-mailer:
-  param:
-    transport:
-      class: Swift_SmtpTransport
-      param:
-        host:       smtp.gmail.com
-        port:       465
-        encryption: ssl
-        username: graviola.project@gmail.com
-        password: nojamforme
+  ##TODO set username and password
+  mailer:
+    param:
+      delivery_strategy: realtime
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       smtp.gmail.com
+          port:       465
+          encryption: ssl
+          username: graviola.project
+          password: nojamforme

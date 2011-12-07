@@ -46,18 +46,15 @@ all:
     param:
       session_name: graviola
 
-# your environment for webservice mode
-soap:
-  controller:
-    class: ckWebServiceController
-
-mailer:
-  param:
-    transport:
-      class: Swift_SmtpTransport
-      param:
-        host:       smtp.gmail.com
-        port:       465
-        encryption: ssl
-        username: graviola.project@gmail.com
-        password: nojamforme
+  ##TODO set username and password
+  mailer:
+    param:
+      delivery_strategy: realtime
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       smtp.gmail.com
+          port:       465
+          encryption: ssl
+          username: graviola.project
+          password: nojamforme
