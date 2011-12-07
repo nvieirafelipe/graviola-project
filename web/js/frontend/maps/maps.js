@@ -123,7 +123,7 @@ function loadTransports(routeSelected) {
 
 function loadRoute(routeSelected) {
   $.ajax({
-    url: 'routes/route.json?id='+ routeSelected,
+    url: '../routes/route.json?id='+ routeSelected,
     dataType: 'json',
     success: function(data) {
       map = $('#map_canvas');

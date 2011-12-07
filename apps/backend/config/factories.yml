@@ -55,5 +55,5 @@ mailer:
         host:       smtp.gmail.com
         port:       465
         encryption: ssl
-        username:
-        password:
+        username: graviola.project@gmail.com
+        password: nojamforme

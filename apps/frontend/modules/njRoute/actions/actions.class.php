@@ -60,6 +60,8 @@ class njRouteActions extends sfActions
     
     $this->stop_time_coords = array();
     
+    $this->stop_times = array();
+    
     foreach ($this->nj_trips as $nj_trip) {
       if ($nj_trip->getId() == $trip_time) {
         $current_trip = $nj_trip;
@@ -67,8 +69,10 @@ class njRouteActions extends sfActions
     }
     
     foreach ($current_trip->getNjStopTimes() as $index => $stop_time) {
-      $this->stop_time_coords[] = $stop_time->getNjStop()->getLatitude() . ';' . $stop_time->getNjStop()->getLongitude() . ';' . $stop_time->getNjStop()->getDescription();
+      $this->stop_time_coords[] = $stop_time->getNjStop()->getLatitude() . ';' . $stop_time->getNjStop()->getLongitude() . ';<strong>' . $stop_time->getNjStop()->getDescription().'</strong>';
     }
+
+    #TODO pegar o $this->stop_times e colocar na info window
     
     $this->stop_time_coords = implode('|', $this->stop_time_coords);
     

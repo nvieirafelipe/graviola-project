@@ -1,4 +1,4 @@
-<a href="<?php echo url_for('nj_user_profile_edit', $nj_user_profile); ?>" class="link small edit_profile" title="Edit Profile">Edit Profile</a>
+<a href="<?php echo url_for('njUserProfile/edit?id='.$nj_user_profile->getId()); ?>" class="link small edit_profile" title="Edit Profile">Edit Profile</a>
 <br />
 <div class="column box block">
   <?php if($nj_user_profile->getPicture()): ?>
@@ -6,7 +6,7 @@
                                                             array('alt'=>$nj_user_profile->getSfGuardUser()->getName().' profile picture', 
                                                                   'title'=>$nj_user_profile->getSfGuardUser()->getName().'Profile Picture', 
                                                                   'style'=>'max-width:480px; max-height:720px')); ?>
-  <?php else:?>
+  <?php else: ?>
     Profile picture.
   <?php endif;?>
   <br />

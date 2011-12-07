@@ -101,13 +101,13 @@ app_config:
 
 # njUserProfile
 nj_user_profile_show:
-  url:  /profile/show/:id
+  url:  /profile/show
   class:    sfDoctrineRoute
   param: { module: njUserProfile, action: show }
   options:  { model: NjUserProfile, type: object }
 
 nj_user_profile_edit:
-  url:  /profile/edit/:id
+  url:  /profile/edit
   class:    sfDoctrineRoute
   param: { module: njUserProfile, action: edit }
   options:  { model: NjUserProfile, type: object }
