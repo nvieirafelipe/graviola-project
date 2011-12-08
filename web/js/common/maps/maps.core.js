@@ -331,8 +331,8 @@
     
     var defaultValues = {
       imageSize: {x: 11, y: 11},
-      imageNormalStatePath: 'http://localhost/graviola/web/images/square.png',
-      imageHoverStatePath: 'http://localhost/graviola/web/images/square_over.png',
+      imageNormalStatePath: '/images/square.png',
+      imageHoverStatePath: '/images/square_over.png',
       imageOrigin: {x: 0, y: 0},
       imageAnchor: {x: 6, y: 6}
     };
@@ -564,8 +564,8 @@
     var controls = [];
     if (opts.editable) {
       //TODO Change the path of the images, these should be more dynamic.
-      controls = [{title: 'Route', src: 'http://localhost/graviola/web/images/icons/route.png', clickCallback: enablePathEdition},
-                      {title: 'Stop', src: 'http://localhost/graviola/web/images/icons/stop.png', clickCallback: enableStopsEdition}]
+      controls = [{title: 'Route', src: '/images/icons/route.png', clickCallback: enablePathEdition},
+                      {title: 'Stop', src: '/images/icons/stop.png', clickCallback: enableStopsEdition}]
                    
                    
       $.each(controls, function(index, control){
@@ -602,7 +602,7 @@
       liveTrackingTransportPosition = new google.maps.Marker({
         map: map,
         animation: google.maps.Animation.DROP,
-        icon: "http://localhost/graviola/web/images/symb_bus.png",
+        icon: "/images/symb_bus.png",
         zIndex: 1000
       });
     }
