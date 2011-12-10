@@ -34,11 +34,12 @@ class njRouteActions extends sfActions
   
   public function executeFilter(sfWebRequest $request) 
   {
-     if ($request->getParameter('transport_mode_id') != "")
+     if ($request->getParameter('transport_mode_id') != "") {
        $this->nj_routes = Doctrine_Core::getTable('NjRoute')->findByNjTransportModeId($request->getParameter('transport_mode_id'));
-     else
+     }
+     else {
        $this->nj_routes = Doctrine_Core::getTable('NjRoute')->findAll();
-     
+     }
      $routes_ids = $this->nj_routes->getPrimaryKeys();
      $this->nj_notifications = Doctrine_Core::getTable('NjNotification')->getRoutesNotifications($routes_ids);
 
