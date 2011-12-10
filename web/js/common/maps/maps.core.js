@@ -680,9 +680,9 @@
       });
       markers.push(createdMarker);
     }
-    
-    createPointListener = google.maps.event.addListener(map, 'click', createRouteMarker);
-    
+    if (opts.editable) {
+      createPointListener = google.maps.event.addListener(map, 'click', createRouteMarker);
+    }
   }
   
   $.fn.googlemaps.addStopMarker = function(coords) {
@@ -721,7 +721,8 @@
       zoom:       7, 
       mapTypeId:  google.maps.MapTypeId.ROADMAP,
       center:     new google.maps.LatLng(-22.567566, -47.975715)
-    }
+    },
+    editable: false
   }
   
 })(jQuery);
