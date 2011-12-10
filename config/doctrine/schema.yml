@@ -190,6 +190,12 @@ NjUserProfile:
     picture:
       type: string(255)
       notnull: false
+    phone:
+      type: integer(10)
+      notnull: false
+    cell:
+      type: integer(10)
+      notnull: false
     address:
       type: string(255)
       notnull: false
