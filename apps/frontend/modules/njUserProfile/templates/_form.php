@@ -1,7 +1,7 @@
 <?php use_stylesheets_for_form($form) ?>
 <?php use_javascripts_for_form($form) ?>
 
-      
+
 <form action="<?php echo url_for('njUserProfile/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
 <?php if (!$form->getObject()->isNew()): ?>
 <input type="hidden" name="sf_method" value="put" />
@@ -49,6 +49,20 @@
         </td>
       </tr>
       <tr>
+        <th><?php echo $form['phone']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['phone']->renderError() ?>
+          <?php echo $form['phone'] ?>
+        </td>
+      </tr>
+      <tr>
+        <th><?php echo $form['cell']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['cell']->renderError() ?>
+          <?php echo $form['cell'] ?>
+        </td>
+      </tr>
+      <tr>          
         <th><?php echo $form['address']->renderLabel() ?></th>
         <td>
           <?php echo $form['address']->renderError() ?>

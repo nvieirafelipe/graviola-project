@@ -10,6 +10,8 @@ Doctrine_Manager::getInstance()->bindComponent('NjUserProfile', 'doctrine');
  * @property integer $id
  * @property integer $user_id
  * @property string $picture
+ * @property integer $phone
+ * @property integer $cell
  * @property string $address
  * @property string $complement
  * @property string $district
@@ -24,6 +26,8 @@ Doctrine_Manager::getInstance()->bindComponent('NjUserProfile', 'doctrine');
  * @method integer       getId()          Returns the current record's "id" value
  * @method integer       getUserId()      Returns the current record's "user_id" value
  * @method string        getPicture()     Returns the current record's "picture" value
+ * @method integer       getPhone()       Returns the current record's "phone" value
+ * @method integer       getCell()        Returns the current record's "cell" value
  * @method string        getAddress()     Returns the current record's "address" value
  * @method string        getComplement()  Returns the current record's "complement" value
  * @method string        getDistrict()    Returns the current record's "district" value
@@ -37,6 +41,8 @@ Doctrine_Manager::getInstance()->bindComponent('NjUserProfile', 'doctrine');
  * @method NjUserProfile setId()          Sets the current record's "id" value
  * @method NjUserProfile setUserId()      Sets the current record's "user_id" value
  * @method NjUserProfile setPicture()     Sets the current record's "picture" value
+ * @method NjUserProfile setPhone()       Sets the current record's "phone" value
+ * @method NjUserProfile setCell()        Sets the current record's "cell" value
  * @method NjUserProfile setAddress()     Sets the current record's "address" value
  * @method NjUserProfile setComplement()  Sets the current record's "complement" value
  * @method NjUserProfile setDistrict()    Sets the current record's "district" value
@@ -75,6 +81,16 @@ abstract class BaseNjUserProfile extends sfDoctrineRecord
              'type' => 'string',
              'notnull' => false,
              'length' => 255,
+             ));
+        $this->hasColumn('phone', 'integer', 10, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 10,
+             ));
+        $this->hasColumn('cell', 'integer', 10, array(
+             'type' => 'integer',
+             'notnull' => false,
+             'length' => 10,
              ));
         $this->hasColumn('address', 'string', 255, array(
              'type' => 'string',

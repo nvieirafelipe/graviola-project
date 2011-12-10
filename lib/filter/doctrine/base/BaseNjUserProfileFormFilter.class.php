@@ -18,6 +18,8 @@ abstract class BaseNjUserProfileFormFilter extends BaseFormFilterDoctrine
     $this->setWidgets(array(
       'user_id'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('sfGuardUser'), 'add_empty' => true)),
       'picture'    => new sfWidgetFormFilterInput(),
+      'phone'      => new sfWidgetFormFilterInput(),
+      'cell'       => new sfWidgetFormFilterInput(),
       'address'    => new sfWidgetFormFilterInput(),
       'complement' => new sfWidgetFormFilterInput(),
       'district'   => new sfWidgetFormFilterInput(),
@@ -32,6 +34,8 @@ abstract class BaseNjUserProfileFormFilter extends BaseFormFilterDoctrine
     $this->setValidators(array(
       'user_id'    => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('sfGuardUser'), 'column' => 'id')),
       'picture'    => new sfValidatorPass(array('required' => false)),
+      'phone'      => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'cell'       => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'address'    => new sfValidatorPass(array('required' => false)),
       'complement' => new sfValidatorPass(array('required' => false)),
       'district'   => new sfValidatorPass(array('required' => false)),
@@ -63,6 +67,8 @@ abstract class BaseNjUserProfileFormFilter extends BaseFormFilterDoctrine
       'id'         => 'Number',
       'user_id'    => 'ForeignKey',
       'picture'    => 'Text',
+      'phone'      => 'Number',
+      'cell'       => 'Number',
       'address'    => 'Text',
       'complement' => 'Text',
       'district'   => 'Text',

@@ -9,7 +9,7 @@ require_once(dirname(__FILE__).'/../../../lib/vendor/symfony/lib/helper/UrlHelpe
  * @author     Felipe Vieira         <nvieirafelipe@gmail.com>;
                Jean Frizo            <jfrizo@gmail.com>;
                Rafael Mardegan       <mardegan.rafael@gmail.com>;
-               Yohan Araújo          <yohanaraujo07@gmail.com>;
+               Yohan Ara√∫jo          <yohanaraujo07@gmail.com>;
  * @version    SVN: $Id: sfDoctrineFormTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
 class NjUserProfileForm extends BaseNjUserProfileForm
@@ -31,6 +31,13 @@ class NjUserProfileForm extends BaseNjUserProfileForm
           'with_delete' => true,
     )));
     
+    
+    $this->widgetSchema['state'] = new sfWidgetFormChoice(array(
+        'choices'  => Doctrine_Core::getTable('NjUserProfile')->getTypes(),
+        'expanded' => false,
+    ));
+    
+          
     $this->setWidget('user_id', new sfWidgetFormInputHidden());
     
     $this->embedRelation('sfGuardUser');
