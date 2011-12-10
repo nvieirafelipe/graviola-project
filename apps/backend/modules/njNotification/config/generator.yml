@@ -17,6 +17,7 @@ generator:
       list:
         title:    Notification List
         display:  [=id, njNotificationType, njTrip, njStopTime, created_at, updated_at]
+
       filter:  ~
       form:    ~
       edit:    ~

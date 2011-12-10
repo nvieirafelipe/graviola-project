@@ -20,7 +20,7 @@
     <?php endif ?>
 
     <?php foreach ($configuration->getFormFields($form, 'show') as $fieldset => $fields): ?>
-      <?php include_partial('njTrip/form_fieldset', array('Trip' => $Trip, 'form' => $form, 'fields' => $fields, 'fieldset' => $fieldset)) ?>
+      <?php //include_partial('njTrip/form_fieldset', array('Trip' => $Trip, 'form' => $form, 'fields' => $fields, 'fieldset' => $fieldset)) ?>
 
       <div id="sf_fieldset_<?php echo preg_replace('/[^a-z0-9_]/', '_', strtolower($fieldset)) ?>">
 

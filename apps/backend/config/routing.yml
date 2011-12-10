@@ -1,6 +1,15 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
+nj_trip:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjTrip
+    module:               njTrip
+    prefix_path:          /trips
+    column:               id
+    with_wildcard_routes: true
+
 # graviola - Transport rules 
 nj_trip_new_add_stop:
   url:   /trips/new/add-stop
@@ -17,15 +26,6 @@ nj_trip_add_stop:
 nj_trip_add_stop_time:
   url:   /trips/:id/edit/add-stop-time
   param: { module: njTrip, action: AddStopTime }
-
-nj_trip:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                NjTrip
-    module:               njTrip
-    prefix_path:          /trips
-    column:               id
-    with_wildcard_routes: true
 
 nj_route_new_add_trip:
   url:   /routes/new/add-trip
