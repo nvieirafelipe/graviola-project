@@ -14,8 +14,27 @@
 class njApiActions extends sfActions
 {
   public function executeMaps(sfWebRequest $request) 
-  {
+  { 
+    $this->route = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('route_id'));
     
+    $this->trips = $this->route->getNjTrips();
+    
+    $this->stop_time_coords = array();
+    
+    $trip_id = $request->getParameter('trip_id');
+    
+    foreach ($this->trips as $nj_trip) {
+      if ($nj_trip->getId() == $trip_id) {
+        $current_trip = $nj_trip;
+      }
+    }
+    
+    foreach ($current_trip->getNjStopTimes() as $index => $stop_time) {
+      $this->stop_time_coords[] = $stop_time->getNjStop()->getLatitude() . ';' . $stop_time->getNjStop()->getLongitude() . ';<strong>' . $stop_time->getNjStop()->getDescription().'</strong>';
+    }
+    
+    $this->trip_polyline = $current_trip->getPolyline();
+    $this->stop_time_coords = implode('|', $this->stop_time_coords);
   }
   
   public function executeTransportFilter(sfWebRequest $request)
