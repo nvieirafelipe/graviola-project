@@ -116,7 +116,8 @@ class njDataSimulationActions extends sfActions
       }
 
       // Increment the check_date
-      $check_date = date ('Y-m-d', strtotime('+1 day', strtotime($check_date)));
+      if ($check_date != $end_date)
+        $check_date = date ('Y-m-d', strtotime('+1 day', strtotime($check_date)));
     } while($check_date != $end_date);
   } 
 
