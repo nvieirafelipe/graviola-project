@@ -15,7 +15,7 @@ class NjNotificationForm extends BaseNjNotificationForm
 {
   public function configure()
   {
-     unset($this['created_at'], $this['updated_at']);
+     unset($this['created_at'], $this['updated_at'], $this['sf_guard_users_list']);
 
      $this->setWidget('nj_route_id', new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('NjRoute'), 'add_empty' => true, 'add_empty' => true)));
 
