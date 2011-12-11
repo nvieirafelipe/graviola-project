@@ -19,6 +19,8 @@ class NjTripForm extends BaseNjTripForm
   public function configure()
   {
     unset($this['created_at'], $this['updated_at']);
+    
+    $this->widgetSchema['nj_vehicle_id'] = new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('NjVehicle'), 'add_empty' => false, 'table_method' => 'getFreeVehicles'));    
 
     if ($this->object->exists())  
     {  

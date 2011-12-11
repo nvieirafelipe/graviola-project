@@ -20,7 +20,7 @@ class NjVehicleTable extends Doctrine_Table
     public static function getFreeVehicles()
     {
       $query = NjVehicleTable::getInstance()->createQuery('v')
-              ->where('v.id NOT IN (SELECT t.nj_vehicle_id FROM NjTrip t)');
+              ->where('v.id NOT IN (SELECT t.nj_vehicle_id FROM NjTrip t GROUP BY t.nj_vehicle_id)');
 
       return $query->execute();
     }

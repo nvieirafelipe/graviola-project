@@ -16,4 +16,21 @@ class NjTripTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('NjTrip');
     }
+    
+    public function loadTransportsFromRoute($trip_id, $route_id) {
+        $query = $this->createQuery()
+                      ->select('n.id AS nj_vehicle_id,
+                                n.number AS nj_number,
+                                n2.id AS nj_route_id,
+                                n4.id AS nj_vehicle_type_id,
+                                n4.description nj_vehicle_type')
+                      ->from('NjVehicle n')
+                      ->innerJoin('n.NjRoute n2')
+                      ->innerJoin('n.NjTrip n3')
+                      ->innerJoin('n.NjVehicleType n4')
+                      ->where('n3.nj_trip_id = ?', $trip_id)
+                      ->andWhere('n2.nj_route_id = ?', $route_id);
+        return $query->fetchArray();
+    }    
+
 }
