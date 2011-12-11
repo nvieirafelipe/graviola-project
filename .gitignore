@@ -4,3 +4,5 @@ config/databases.yml
 config/databases.yml
 
 cache/project_autoload.cache
+
+config/databases.yml
