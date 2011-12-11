@@ -37,7 +37,13 @@
                 <?php echo $form->getObject()->get($name) ? $form->getObject()->get($name) : "&nbsp;" ?>
               <?php elseif ($field->getName() == 'polyline'): ?>
                 <div class="space"></div>
-                <div id="map_canvas" class="map_canvas clear clearfix"></div>
+                <div class="map_wrapper">
+                  <div class="map_path_data" style="display:none;">
+                    <textarea class="polyline-coords"><?php echo $form->getObject()->get($name) ? $form->getObject()->get($name) : "&nbsp;" ?></textarea>
+                    <div class="stops-coords"><?php echo html_entity_decode($stop_time_coords); ?></div>
+                  </div>
+                  <div id="map_canvas" class="map_canvas"></div>
+                </div>
               <?php else: ?>
                 <label><?php echo $field->getConfig('label') ? $field->getConfig('label') : $field->getName() ?>:</label>
                 <?php echo $form->getObject()->get($name) ? $form->getObject()->get($name) : "&nbsp;" ?>

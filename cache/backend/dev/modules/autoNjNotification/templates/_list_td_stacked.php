@@ -1,3 +1,0 @@
-<td colspan="6">
-  <?php echo __('%%id%% - %%njNotificationType%% - %%njTrip%% - %%njStopTime%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($Notification->getId(), 'nj_notification_edit', $Notification), '%%njNotificationType%%' => $Notification->getNjNotificationType(), '%%njTrip%%' => $Notification->getNjTrip(), '%%njStopTime%%' => $Notification->getNjStopTime(), '%%created_at%%' => false !== strtotime($Notification->getCreatedAt()) ? format_date($Notification->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($Notification->getUpdatedAt()) ? format_date($Notification->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
-</td>
