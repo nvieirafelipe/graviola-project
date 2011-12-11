@@ -10,15 +10,12 @@ generator:
     route_prefix:          nj_notification
     with_doctrine_route:   true
     actions_base_class:    sfActions
-    
+
     config:
       actions: ~
       fields:  ~
-      list:
-        title:    Notification List
-        display:  [=id, njNotificationType, njTrip, njStopTime, created_at, updated_at]
-
+      list:    ~
       filter:  ~
       form:    ~
       edit:    ~
-      new:
+      new:     ~
