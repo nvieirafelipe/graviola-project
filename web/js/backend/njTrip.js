@@ -2,24 +2,6 @@ $(document).ready(function() {
   loadMaps();
 });
 
-/*var addNewStopTime = function(e) {
-  $(this).unbind('click'); 
-  $(this).fadeOut('normal');
-
-  // This selector looks for input of type hidden field that stores the id of a stop time to discover how many stop times have been added
-  num = parseInt($('tbody tr td input[type=hidden][name^="nj_trip[new]"]').size()+1);
-  if ($('#nj_trip_NjStopTimes_'+num+'_id').length == 0) {
-    $('.sf_admin_form_field_NjStopTimes table:first').append('<tr><th>'+num+'</th><td></td></tr>');
-    $('.sf_admin_form_field_NjStopTimes table:first tbody:first > tr:last > td').load($(location).attr('href')+'/add-stop-time?num='+num, function(){
-      googleMaps = $("#map_canvas").initMaps();
-      loadControls();
-
-      $('a#addStopTime').fadeIn('normal');
-      $('a#addStopTime').click(addNewStopTime);
-    });
-  }
-}*/
-
 /**
  * Init items  
  */

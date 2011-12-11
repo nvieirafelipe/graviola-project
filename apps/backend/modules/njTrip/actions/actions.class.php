@@ -78,4 +78,18 @@ class njTripActions extends autoNjTripActions
     }
   }
   
+  public function executeShow(sfWebRequest $request) {
+    
+    $this->Trip = Doctrine::getTable('NjTrip')->find($request->getParameter('id'));
+    $this->forward404Unless($this->Trip);
+    $this->form = $this->configuration->getForm($this->Trip);
+    
+    foreach ($this->Trip->getNjStopTimes() as $index => $stop_time) {
+      $stop_time_coords[] = $stop_time->getNjStop()->getLatitude() . ';' . $stop_time->getNjStop()->getLongitude() . ';<strong>' . $stop_time->getNjStop()->getDescription().'</strong>';
+    }
+    
+    $stop_time_coords = implode('|', $stop_time_coords);
+    
+    $this->stop_time_coords = $stop_time_coords;
+  }
 }
