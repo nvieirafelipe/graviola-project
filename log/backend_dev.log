@@ -942,3 +942,392 @@ Dec 10 19:41:28 symfony [info] {sfWebDebugLogger} Partial "global/_header_bottom
 Dec 10 19:41:28 symfony [info] {sfWebDebugLogger} Partial "global/_footer_top" 0.64 ms (1)
 Dec 10 19:41:28 symfony [info] {sfWebDebugLogger} Partial "global/_footer_bottom" 0.62 ms (1)
 Dec 10 19:41:28 symfony [info] {sfWebResponse} Send content (305652 o)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_register" (/guard/register)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Dec 10 19:51:35 symfony [info] {sfPatternRouting} Match route "main" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Dec 10 19:51:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 10 19:51:35 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Dec 10 19:52:05 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'tunnel.pagodabox.com' (4)
+Dec 10 19:52:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 10 19:52:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 10 19:52:05 symfony [info] {sfWebDebugLogger} Configuration 343.96 ms (8)
+Dec 10 19:52:05 symfony [info] {sfWebDebugLogger} Factories 163.96 ms (1)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Dec 10 19:53:17 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_register" (/guard/register)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Dec 10 19:53:18 symfony [info] {sfPatternRouting} Match route "main" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Dec 10 19:53:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 10 19:53:18 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_register" (/guard/register)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Dec 10 19:53:39 symfony [info] {sfPatternRouting} Match route "main" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Dec 10 19:53:48 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'tunnel.pagodabox.com' (4)
+Dec 10 19:53:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Dec 10 19:53:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Configuration 1.24 ms (8)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Factories 50.02 ms (1)
+Dec 10 19:53:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 10 19:53:48 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+Dec 10 19:53:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 10 19:53:48 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Dec 10 19:53:48 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/modules/main/templates/indexSuccess.php"
+Dec 10 19:53:48 symfony [info] {main} Set slot "title"
+Dec 10 19:53:48 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/layout.php"
+Dec 10 19:53:48 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/layout.php"
+Dec 10 19:53:48 symfony [info] {main} Get slot "title"
+Dec 10 19:53:48 symfony [info] {main} Get slot "title"
+Dec 10 19:53:48 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_header_top.php"
+Dec 10 19:53:48 symfony [info] {main} Call "widgets->executeMainmenu()"
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.group_id AS s2__group_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_group_permission s2 ON s.id = s2.permission_id WHERE (s2.group_id IN (?)) - (1)
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s2.group_id AS s2__group_id, s2.permission_id AS s2__permission_id, s3.id AS s3__id, s3.name AS s3__name FROM sf_guard_group s INNER JOIN sf_guard_group_permission s2 ON s.id = s2.group_id INNER JOIN sf_guard_permission s3 ON s2.permission_id = s3.id WHERE (s.name = ?) - (SuperAdministrator)
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.nj_menu_item_routing_id AS n__nj_menu_item_routing_id, n.sf_guard_permission_id AS n__sf_guard_permission_id, n2.id AS n2__id, n2.description AS n2__description, n2.detail AS n2__detail, n2.routing AS n2__routing, n3.id AS n3__id, n3.description AS n3__description, n3.routing AS n3__routing FROM nj_permission_menu_item_routing n INNER JOIN nj_menu_item_routing n2 ON n.nj_menu_item_routing_id = n2.id INNER JOIN nj_section_routing n3 ON n2.nj_section_routing_id = n3.id WHERE (n.sf_guard_permission_id IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) ORDER BY n3.menu_order, n2.menu_order - (1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+Dec 10 19:53:48 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/modules/widgets/templates/_mainmenu.php"
+Dec 10 19:53:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.user_id AS n__user_id, n.picture AS n__picture, n.phone AS n__phone, n.cell AS n__cell, n.address AS n__address, n.complement AS n__complement, n.district AS n__district, n.city AS n__city, n.state AS n__state, n.country AS n__country, n.webpage AS n__webpage, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_user_profile n WHERE (n.user_id = ?) - (1)
+Dec 10 19:53:48 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_header_bottom.php"
+Dec 10 19:53:48 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_footer_top.php"
+Dec 10 19:53:48 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_footer_bottom.php"
+Dec 10 19:53:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 10 19:53:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Configuration 313.96 ms (10)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Factories 8732.54 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (8)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Action "main/index" 0.12 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 113.49 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Partial "global/_header_top" 97.63 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Component "widgets/mainmenu" 73.51 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Partial "widgets/_mainmenu" 4.39 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Partial "global/_header_bottom" 0.64 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Partial "global/_footer_top" 1.40 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebDebugLogger} Partial "global/_footer_bottom" 1.42 ms (1)
+Dec 10 19:53:48 symfony [info] {sfWebResponse} Send content (82080 o)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_register" (/guard/register)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Dec 10 19:53:51 symfony [info] {sfPatternRouting} Match route "nj_notification" (/notifications.:sf_format) for /notifications with parameters array (  'module' => 'NjNotification',  'action' => 'index',  'sf_format' => 'html',)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_filter" (/guard/groups/filter.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_batch" (/guard/groups/batch.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group" (/guard/groups.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_new" (/guard/groups/new.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_create" (/guard/groups.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_edit" (/guard/groups/:id/edit.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_update" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_delete" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_show" (/guard/groups/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_object" (/guard/groups/:id/:action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_group_collection" (/guard/groups/:action/action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_filter" (/guard/permissions/filter.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_batch" (/guard/permissions/batch.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission" (/guard/permissions.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_new" (/guard/permissions/new.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_create" (/guard/permissions.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_edit" (/guard/permissions/:id/edit.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_update" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_delete" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_show" (/guard/permissions/:id.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_object" (/guard/permissions/:id/:action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_permission_collection" (/guard/permissions/:action/action.:sf_format)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_register" (/guard/register)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_forgot_password" (/guard/forgot_password)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_forgot_password_change" (/guard/forgot_password/:unique_key)
+Dec 10 19:53:53 symfony [info] {sfPatternRouting} Match route "nj_notification" (/notifications.:sf_format) for /notifications with parameters array (  'module' => 'NjNotification',  'action' => 'index',  'sf_format' => 'html',)
+Dec 10 19:53:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 10 19:53:53 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+Dec 10 19:53:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 10 19:53:53 symfony [info] {njNotificationActions} Call "njNotificationActions->executeIndex()"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM nj_notification n - ()
+Dec 10 19:53:53 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/indexSuccess.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_assets.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_flashes.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_header.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n - ()
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.nj_transport_mode_id AS n__nj_transport_mode_id, n.number AS n__number, n.name AS n__name, n.description AS n__description, n.detail AS n__detail, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_route n - ()
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n - ()
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n - ()
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:53 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_filters_field.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s - ()
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_th_tabular.php"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Set slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {main} Get slot "sf_admin.current_header"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_pagination.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.nj_notification_type_id AS n__nj_notification_type_id, n.description AS n__description, n.detail AS n__detail, n.nj_route_id AS n__nj_route_id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_time_id AS n__nj_stop_time_id, n.average_speed AS n__average_speed, n.time_delay AS n__time_delay, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification n LIMIT 20 - ()
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (13)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (13)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (17)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (54)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (17)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (55)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (21)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (63)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (2)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (23)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (22)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (3)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_calendar_id AS n__nj_calendar_id, n.nj_route_id AS n__nj_route_id, n.nj_vehicle_id AS n__nj_vehicle_id, n.direction_id AS n__direction_id, n.description AS n__description, n.detail AS n__detail, n.polyline AS n__polyline, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_trip n WHERE (n.id = ?) - (24)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.nj_trip_id AS n__nj_trip_id, n.nj_stop_id AS n__nj_stop_id, n.arrival_time AS n__arrival_time, n.departure_time AS n__departure_time, n.stop_sequence AS n__stop_sequence, n.description AS n__description, n.detail AS n__detail, n.dist_traveled AS n__dist_traveled, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_stop_time n WHERE (n.id = ?) - (22)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (4)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_tabular.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.description AS n__description, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_notification_type n WHERE (n.id = ?) - (4)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_td_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_batch_actions.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_list_footer.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/cache/backend/dev/modules/autoNjNotification/templates/_themeswitcher.php"
+Dec 10 19:53:54 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/layout.php"
+Dec 10 19:53:54 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/layout.php"
+Dec 10 19:53:54 symfony [info] {main} Get slot "title"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_header_top.php"
+Dec 10 19:53:54 symfony [info] {main} Call "widgets->executeMainmenu()"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.group_id AS s2__group_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_group_permission s2 ON s.id = s2.permission_id WHERE (s2.group_id IN (?)) - (1)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s2.group_id AS s2__group_id, s2.permission_id AS s2__permission_id, s3.id AS s3__id, s3.name AS s3__name FROM sf_guard_group s INNER JOIN sf_guard_group_permission s2 ON s.id = s2.group_id INNER JOIN sf_guard_permission s3 ON s2.permission_id = s3.id WHERE (s.name = ?) - (SuperAdministrator)
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.nj_menu_item_routing_id AS n__nj_menu_item_routing_id, n.sf_guard_permission_id AS n__sf_guard_permission_id, n2.id AS n2__id, n2.description AS n2__description, n2.detail AS n2__detail, n2.routing AS n2__routing, n3.id AS n3__id, n3.description AS n3__description, n3.routing AS n3__routing FROM nj_permission_menu_item_routing n INNER JOIN nj_menu_item_routing n2 ON n.nj_menu_item_routing_id = n2.id INNER JOIN nj_section_routing n3 ON n2.nj_section_routing_id = n3.id WHERE (n.sf_guard_permission_id IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) ORDER BY n3.menu_order, n2.menu_order - (1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/modules/widgets/templates/_mainmenu.php"
+Dec 10 19:53:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.user_id AS n__user_id, n.picture AS n__picture, n.phone AS n__phone, n.cell AS n__cell, n.address AS n__address, n.complement AS n__complement, n.district AS n__district, n.city AS n__city, n.state AS n__state, n.country AS n__country, n.webpage AS n__webpage, n.created_at AS n__created_at, n.updated_at AS n__updated_at FROM nj_user_profile n WHERE (n.user_id = ?) - (1)
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_header_bottom.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_footer_top.php"
+Dec 10 19:53:54 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/graviola-project/apps/backend/templates/_footer_bottom.php"
+Dec 10 19:53:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 10 19:53:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Configuration 11.09 ms (13)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Factories 38.40 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.14 ms (38)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Action "NjNotification/index" 28.41 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} View "Success" for "NjNotification/index" 567.86 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_assets" 8.02 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_flashes" 5.86 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_header" 5.27 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_filters" 163.83 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_filters_field" 149.56 ms (11)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_actions" 4.02 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list" 221.69 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_th_tabular" 10.18 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_pagination" 7.96 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_td_batch_actions" 16.30 ms (9)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_td_tabular" 138.90 ms (9)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_td_actions" 27.88 ms (9)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_batch_actions" 4.75 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_list_footer" 5.14 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "NjNotification/_themeswitcher" 6.90 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "global/_header_top" 119.71 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Component "widgets/mainmenu" 91.91 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "widgets/_mainmenu" 5.29 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "global/_header_bottom" 0.95 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "global/_footer_top" 1.78 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebDebugLogger} Partial "global/_footer_bottom" 2.60 ms (1)
+Dec 10 19:53:54 symfony [info] {sfWebResponse} Send content (305639 o)
