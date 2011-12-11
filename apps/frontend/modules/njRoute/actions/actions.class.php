@@ -132,8 +132,8 @@ class njRouteActions extends sfActions
      return $this->renderText("Successfully unsubscribed");
   }
   
-  public function executeRoute(sfWebRequest $request) {
-    $routes = array();
+  public function executeRouteJson(sfWebRequest $request) {
+    /*$routes = array();
 ;
     $this->route = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('id'));
     
@@ -159,6 +159,44 @@ class njRouteActions extends sfActions
     
     $result = array('route' => $routes, 'markers' => $markers);
     
-    $this->result = $result;
+    $this->result = $result;*/
+    $this->route = Doctrine_Core::getTable('NjRoute')->find($request->getParameter('route_id'));
+    print_r($this->route->getData());
+    exit();
+  }
+  
+  public function symfony_to_js($var) {
+    switch (gettype($var)) {
+      case 'boolean':
+        return $var ? 'true' : 'false'; // Lowercase necessary!
+      case 'integer':
+      case 'double':
+        return $var;
+      case 'resource':
+      case 'string':
+        return '"'. str_replace(array("\r", "\n", "<", ">", "&"),
+                                array('\r', '\n', '\x3c', '\x3e', '\x26'),
+                                addslashes($var)) .'"';
+      case 'array':
+        // Arrays in JSON can't be associative. If the array is empty or if it
+        // has sequential whole number keys starting with 0, it's not associative
+        // so we can go ahead and convert it as an array.
+        if (empty ($var) || array_keys($var) === range(0, sizeof($var) - 1)) {
+          $output = array();
+          foreach ($var as $v) {
+            $output[] = $this->symfony_to_js($v);
+          }
+          return '[ '. implode(', ', $output) .' ]';
+        }
+        // Otherwise, fall through to convert the array as an object.
+      case 'object':
+        $output = array();
+        foreach ($var as $k => $v) {
+          $output[] = $this->symfony_to_js(strval($k)) .': '. $this->symfony_to_js($v);
+        }
+        return '{ '. implode(', ', $output) .' }';
+      default:
+        return 'null';
+    }
   }
 }

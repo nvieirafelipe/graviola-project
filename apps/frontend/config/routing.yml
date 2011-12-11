@@ -8,7 +8,7 @@ panel_control:
 
 # Api Rules
 api_maps:
-  url:    /api/maps
+  url:    /api/maps/:route_id/:trip_id
   param:  { module: njApi, action: maps }
 
 api_transport_filter:
@@ -45,18 +45,14 @@ nj_search_route:
   param: { module: njRoute, action: index }
 
 nj_route_json:
-  url:   /*/routes/route.json
-  param: { module: njRoute, action: route }
+  url:   /routes/:route_id/route.json
+  param: { module: njRoute, action: RouteJson }
   
 
 # No Jam Rules
 nj_stops_json:
   url:   /routes/stops.json
   param: { module: njRoute, action: stops }
-
-nj_route_json:
-  url:   /*/routes/route.json
-  param: { module: njRoute, action: route }
 
 pass_get_movement:
   url:  /pass-movement
