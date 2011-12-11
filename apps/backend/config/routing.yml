@@ -87,15 +87,6 @@ nj_transport_mode:
 
 
 # graviola - Panel Control rules 
-nj_notification:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                NjNotification
-    module:               NjNotification
-    prefix_path:          /notifications
-    column:               id
-    with_wildcard_routes: true
-
 nj_report_json: 
   url:   /reports/chart-data.json
   param: { module: njReport, action: json }
