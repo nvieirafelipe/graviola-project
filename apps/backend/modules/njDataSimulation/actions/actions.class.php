@@ -50,7 +50,7 @@ class njDataSimulationActions extends sfActions
     $this->runs_count = 0;
 
     // Deletes all records of runs within the data range entered by the user
-    if ($trip == "") {
+    if ($trip) {
       $this->deleted_runs_count = Doctrine::getTable('NjRun')
         ->createQuery()
         ->delete()
@@ -70,7 +70,7 @@ class njDataSimulationActions extends sfActions
         ->createQuery('t')
         ->innerJoin('t.NjCalendar c')
         ->where('c.'.$day_of_week.' = true');
-      if ($trip != "") {
+      if ($trip) {
         $q->andWhere('t.id = ?', $trip);
       }
  
