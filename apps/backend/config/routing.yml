@@ -96,13 +96,9 @@ nj_notification:
     column:               id
     with_wildcard_routes: true
 
-nj_report_trip_json: 
-  url:   /reports/trip-chart-data.json
-  param: { module: njReport, action: tripJson }
-
 nj_report_route_json: 
-  url:   /reports/route-chart-data.json
-  param: { module: njReport, action: routeJson }
+  url:   /reports/chart-data.json
+  param: { module: njReport, action: json }
 
 nj_report: 
   url:   /reports
