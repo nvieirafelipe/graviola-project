@@ -17,7 +17,7 @@ class NjRunTable extends Doctrine_Table
         return Doctrine_Core::getTable('NjRun');
     }
 
-    public static function onlineRouteLoad()
+    public static function onlineTripLoad()
     {
       $q = NjRunTable::getInstance()->createQuery('run')
               ->select('run.id')
@@ -62,5 +62,51 @@ class NjRunTable extends Doctrine_Table
 
       return $q->fetchArray();
     }
-    
+
+    public static function tripLoad($from_date)
+    {
+      $q = NjRunTable::getInstance()->createQuery('run')
+              ->addSelect('run.id')
+              ->addSelect('trip.id')
+              ->addSelect('stopt.id')
+              ->addSelect('stop.id')
+              ->addSelect('route.id')
+              ->addSelect('NjStopTime.*')
+              ->addSelect('route.description AS route');
+      
+      $q2 = $q->createSubquery()
+              ->addSelect('SUM(run2.step_into+run2.step_out)')
+              ->from('NjRun run2')
+              ->innerJoin('run2.NjTrip trip2')
+              ->innerJoin('trip2.NjStopTimes stopt2 ON trip2.id = stopt2.nj_trip_id AND run2.nj_stop_id = stopt2.nj_stop_id')
+              ->innerJoin('stopt2.NjStop stop2')
+              ->innerJoin('trip2.NjRoute route2')
+              ->where('stopt.stop_sequence >= stopt2.stop_sequence')
+              ->andWhere('trip.id = trip2.id')
+              ->andWhere('DATE(run2.created_at) > DATE(FROM_UNIXTIME('.$from_date.'))')
+              ->andWhere('trip2.direction_id = 0');
+
+      $q3 = $q->createSubquery()
+              ->addSelect('SUM(run3.step_into+run3.step_out)')
+              ->from('NjRun run3')
+              ->innerJoin('run3.NjTrip trip3')
+              ->innerJoin('trip3.NjStopTimes stopt3 ON trip3.id = stopt3.nj_trip_id AND run3.nj_stop_id = stopt3.nj_stop_id')
+              ->innerJoin('stopt3.NjStop stop3')
+              ->innerJoin('trip3.NjRoute route3')
+              ->where('stopt.stop_sequence >= stopt3.stop_sequence')
+              ->andWhere('trip.id = trip3.id')
+              ->andWhere('DATE(run3.created_at) > DATE(FROM_UNIXTIME('.$from_date.'))')
+              ->andWhere('trip3.direction_id = 1');
+
+      $q->addSelect('AVG(('.$q2->getDql().')) AS trip_load')
+              ->addSelect('AVG(('.$q3->getDql().')) AS return_trip_load')
+              ->innerJoin('run.NjTrip trip')
+              ->innerJoin('trip.NjStopTimes stopt ON trip.id = stopt.nj_trip_id AND run.nj_stop_id = stopt.nj_stop_id')
+              ->innerJoin('stopt.NjStop stop')
+              ->innerJoin('trip.NjRoute route')
+              ->where('DATE(run.created_at) > DATE(FROM_UNIXTIME('.$from_date.'))')
+              ->groupBy('route.description');
+
+      return $q->fetchArray();
+    }
 }

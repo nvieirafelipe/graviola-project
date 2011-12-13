@@ -1,3 +1,12 @@
+nj_notification:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                NjNotification
+    module:               njNotification
+    prefix_path:          /notifications
+    column:               id
+    with_wildcard_routes: true
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
@@ -86,17 +95,8 @@ nj_transport_mode:
 
 
 
-# graviola - Panel Control rules
-nj_notification:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                NjNotification
-    module:               njNotification
-    prefix_path:          /notifications
-    column:               id
-    with_wildcard_routes: true
-
-nj_report_route_json: 
+# graviola - Panel Control rules 
+nj_report_json: 
   url:   /reports/chart-data.json
   param: { module: njReport, action: json }
 

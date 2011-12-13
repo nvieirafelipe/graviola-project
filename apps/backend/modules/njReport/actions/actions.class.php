@@ -24,9 +24,16 @@ class njReportActions extends sfActions
   
   public function executeJson(sfWebRequest $request)
   {
-    $routeLoads = Doctrine_Core::getTable('NjRun')->onlineRouteLoad();
+/*
+    $from_date = date("Y-m-d");
+    $from_date = strtotime(date("Y-m-d", strtotime($from_date)) . " -15 day");
     
-    if($routeLoads == null) 
+    $tripLoads = Doctrine_Core::getTable('NjRun')->tripLoad($from_date);
+*/
+
+    $tripLoads = Doctrine_Core::getTable('NjRun')->onlineTripLoad();
+    
+    if($tripLoads == null) 
     {
       $this->getResponse()->setStatusCode(404, 'No data found');
       $this->getResponse()->setContentType('application/json');
@@ -39,19 +46,37 @@ class njReportActions extends sfActions
                      {"id":"trip_load","label":"Trip Load","pattern":"","type":"number"},
                      {"id":"return_trip_load","label":"Return Trip Load","pattern":"","type":"number"}
                   ],"rows": [';
-      foreach($routeLoads as $routeLoad)
+      foreach($tripLoads as $tripLoad)
       {
           // Vergonha de ter colocado esse abs(), mais agora não é hora de resolver cagada dos outros.
           $result .= '{"c":[
-                        {"v":"'.$routeLoad['route'].'","f":null},
-                        {"v":'.(double)$routeLoad['trip_load'].',"f":null},
-                        {"v":'.abs((double)$routeLoad['return_trip_load']).',"f":null}]},';
+                        {"v":"'.$tripLoad['route'].'","f":null},
+                        {"v":'.(double)$tripLoad['trip_load'].',"f":null},
+                        {"v":'.abs((double)$tripLoad['return_trip_load']).',"f":null}]},';
       }
       $result = substr($result, 0, -1);
       $result .= ']}';
+
+  /*
+       $result = '{"cols": [
+                          {"id":"bairro","label":"Bairro","pattern":"","type":"string"},
+                          {"id":"media_valor_venal","label":"Valor Médio  Valor Venal (R$)","pattern":"","type":"number"},
+                          {"id":"media_valor_venal_corrigido","label":"Valor Médio  Valor Venal Corrigido (R$)","pattern":"","type":"number"},
+                          {"id":"media_oferta_imobiliaria","label":"Valor Médio  Oferta Imobiliaria (R$)","pattern":"","type":"number"},
+                          {"id":"iv","label":"IV  ","pattern":"","type":"number"},
+                          {"id":"iv_fator_valorizacao","label":"IV  Fator Valorizacao ","pattern":"","type":"number"}
+                        ],"rows": [
+                          {"c":[
+                            {"v":"Alphaville","f":null},
+                            {"v":984.595115447434,"f":null},
+                            {"v":1981.90464197809,"f":null},
+                            {"v":10,"f":null},
+                            {"v":2.01291333958877,"f":null},
+                            {"v":10,"f":null}]}]}';
+  */    
 
       $this->getResponse()->setContentType('application/json');
       return $this->renderText(json_encode($result));
     }
   }
- }
+}
