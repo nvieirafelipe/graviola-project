@@ -9966,6 +9966,7 @@ Dec 13 01:32:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Interna
 Dec 13 01:32:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Dec 13 01:32:46 symfony [info] {sfWebDebugLogger} Configuration 177.60 ms (8)
 Dec 13 01:32:46 symfony [info] {sfWebDebugLogger} Factories 122.03 ms (1)
+<<<<<<< HEAD
 Dec 13 02:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
 Dec 13 02:14:37 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
 Dec 13 02:14:37 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
@@ -10432,4 +10433,3 @@ Dec 13 02:15:37 symfony [info] {sfWebDebugLogger} Factories 32.19 ms (1)
 Dec 13 02:15:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
 Dec 13 02:15:37 symfony [info] {sfWebDebugLogger} Action "njReport/json" 46.69 ms (1)
 Dec 13 02:15:37 symfony [info] {sfWebDebugLogger} View "None" for "njReport/json" 0.01 ms (1)
-Dec 13 02:15:37 symfony [info] {sfWebResponse} Send content (931 o)
