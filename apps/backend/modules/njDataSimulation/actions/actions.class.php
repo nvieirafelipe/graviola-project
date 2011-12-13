@@ -25,6 +25,8 @@ class njDataSimulationActions extends sfActions
 
     $this->form->setWidget('periodo', new sfWidgetFormDateRange(array('from_date' => new sfWidgetFormJQueryDate(), 'to_date'   => new sfWidgetFormJQueryDate(), 'template' => 'From %from_date% to %to_date%')));
     $this->form->setValidator('periodo', new sfValidatorDateRange(array('from_date' => new sfValidatorDate(), 'to_date'   => new sfValidatorDate())));
+    $this->form->setWidget('trip', new sfWidgetFormInputText());
+    $this->form->setValidator('trip', new sfValidatorInteger());
 
   }
   
@@ -37,6 +39,8 @@ class njDataSimulationActions extends sfActions
   {
     set_time_limit(0);
     // Retrieves the date range the user filled in the index action
+    $trip = $request->getParameter('trip');
+    
     $periodo = $request->getParameter('periodo');
     $start_date = date ('Y-m-d', strtotime($periodo['from']['year'].'-'.$periodo['from']['month'].'-'.$periodo['from']['day']));
     $end_date = date ('Y-m-d', strtotime($periodo['to']['year'].'-'.$periodo['to']['month'].'-'.($periodo['to']['day'])));
@@ -47,12 +51,14 @@ class njDataSimulationActions extends sfActions
     $this->runs_count = 0;
 
     // Deletes all records of runs within the data range entered by the user
-    $this->deleted_runs_count = Doctrine::getTable('NjRun')
-      ->createQuery()
-      ->delete()
-      ->where('created_at >= ?', $start_date)
-      ->andWhere('created_at <= ?', $end_date)
-      ->execute();
+    if ($trip == "") {
+      $this->deleted_runs_count = Doctrine::getTable('NjRun')
+        ->createQuery()
+        ->delete()
+        ->where('created_at >= ?', $start_date)
+        ->andWhere('created_at <= ?', $end_date)
+        ->execute();
+    }    
     
     // Do the loop to enter runs for each day
     do 
@@ -61,10 +67,14 @@ class njDataSimulationActions extends sfActions
       $day_of_week = strtolower(date('l', strtotime($check_date)));
       
       // Retrieves the trips that are active on a specific day of the week
+
       $q = Doctrine_Core::getTable('NjTrip')
         ->createQuery('t')
         ->innerJoin('t.NjCalendar c')
         ->where('c.'.$day_of_week.' = true');
+        if ($trip != "") {
+          $q->andWhere('t.id = ?', $trip);
+        }
  
       $trips = $q->execute();
       

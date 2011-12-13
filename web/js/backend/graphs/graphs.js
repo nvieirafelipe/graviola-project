@@ -2,7 +2,7 @@ var googleGraphs;
 
 $(document).ready(function(){
   $.ajax({
-        url: 'reports/route-chart-data.json',
+        url: 'reports/chart-data.json',
         dataType: 'json',
         error:function (xhr, ajaxOptions, thrownError){
             renderError(xhr.status, xhr.statusText, xhr.responseText);
@@ -11,25 +11,6 @@ $(document).ready(function(){
           // Create the option object for graph, with data retrieved from the url
           var options =   {
             container: document.getElementById('graph_canvas'),
-            data: data,
-            drawMethod: googleGraphs.prototype.columnChart,
-            chartOptions: {title: 'NoJam graphical reports! Area chart.'}
-          };
-
-          // Creates and show the chart with the options passed
-          var columnGraph = new googleGraphs(options);
-        }
-  });
-    $.ajax({
-        url: 'reports/trip-chart-data.json',
-        dataType: 'json',
-        error:function (xhr, ajaxOptions, thrownError){
-            renderError(xhr.status, xhr.statusText, xhr.responseText);
-        },
-        success: function(data) {
-          // Create the option object for graph, with data retrieved from the url
-          var options =   {
-            container: document.getElementById('graph_canvas2'),
             data: data,
             drawMethod: googleGraphs.prototype.columnChart,
             chartOptions: {title: 'NoJam graphical reports! Area chart.'}
