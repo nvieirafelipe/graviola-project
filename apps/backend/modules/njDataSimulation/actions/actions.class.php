@@ -50,7 +50,7 @@ class njDataSimulationActions extends sfActions
     $this->runs_count = 0;
 
     // Deletes all records of runs within the data range entered by the user
-    if ($trip) {
+    if (!$trip) {
       $this->deleted_runs_count = Doctrine::getTable('NjRun')
         ->createQuery()
         ->delete()
