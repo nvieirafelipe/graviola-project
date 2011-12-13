@@ -71,6 +71,7 @@ class njDataSimulationActions extends sfActions
       foreach($trips as $trip) 
       {
         $current_amount = 0;
+        $trips_for_route = $trip->getNjRoute()->getNjTrips()->count();
         
         // Retrieves the stop times for each trip already sorted by stop sequence
         $stop_times = $trip->getNjStopTimes();
@@ -83,7 +84,7 @@ class njDataSimulationActions extends sfActions
           if($stop_time != $stop_times->getLast()) 
           {
             $step_out = -rand(0 , $current_amount);
-            $step_into = rand(0, (50 - $current_amount));
+            $step_into = rand(0, ((200/$trips_for_route) - $current_amount));
           }
           else
           {
