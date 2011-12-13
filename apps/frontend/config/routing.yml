@@ -11,9 +11,9 @@ api_maps:
   url:    /api/maps/:route_id/:trip_id
   param:  { module: njApi, action: maps }
 
-api_transport_list:
-  url:     /api/transport-list.json
-  param:   { module: njApi, action: transportList }
+api_transport_filter:
+  url:     /api/transport-filter.json
+  param:   { module: njApi, action: transportFilter }
 
 api_login:
   url:     /api/login.json
@@ -21,9 +21,6 @@ api_login:
   param:   { module: njApi, action: login }
   requirements: { sf_method: post }
 
-api_routes_list:
-  url:  /api/routes_list.json
-  param:  { module: njApi, action: routesList}
 
 
 # Routes Rules
