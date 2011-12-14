@@ -155,7 +155,9 @@ abstract class BaseNjNotification extends sfDoctrineRecord
 
         $this->hasOne('NjRoute', array(
              'local' => 'nj_route_id',
-             'foreign' => 'id'));
+             'foreign' => 'id',
+             'onDelete' => 'CASCADE',
+             'onUpdate' => 'CASCADE'));
 
         $this->hasOne('NjTrip', array(
              'local' => 'nj_trip_id',
@@ -172,7 +174,8 @@ abstract class BaseNjNotification extends sfDoctrineRecord
         $this->hasMany('sfGuardUser as sfGuardUsers', array(
              'refClass' => 'NjNotificationSubscriber',
              'local' => 'nj_route_id',
-             'foreign' => 'user_id'));
+             'foreign' => 'user_id',
+             'onUpdate' => 'CASCADE'));
 
         $this->hasMany('NjNotificationSubscriber', array(
              'local' => 'nj_route_id',

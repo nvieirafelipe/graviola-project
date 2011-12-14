@@ -145,6 +145,10 @@ sf_guard_forgot_password:
 
 
 # frontend rules
+change_language:
+  url:   /change-language
+  param: { module: language, action: changeLanguage }
+  
 backend:
   url:   ./backend.php
   param: { module: main, action: index }

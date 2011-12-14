@@ -197,7 +197,7 @@ form.inline p {margin-bottom:0;}
 /*
  * .push-0, .push-1, .push-2, .push-3, .push-4 { float: right; }
 */
-.box {padding: 1.5em; margin-bottom: 1.5em; background: #ccc; border: 4px; border-radius: 5px; -moz-border-radius: 5px; border-style: ridge; box-shadow: 5px 5px 3px #151515;}
+.box {padding: 1.5em; margin-bottom: 1.5em; background: #ccc; border: 1px; border-radius: 5px; -moz-border-radius: 5px; border-style: ridge; box-shadow: 5px 5px 3px #151515;}
 hr {background: #ddd; color: #ddd; width: 100%; height: 0.083em; margin: 0 0 1.583em; border: none; }
 hr.space {background: #fff; color: #fff;}
 

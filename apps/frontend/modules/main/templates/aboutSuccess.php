@@ -1,7 +1,7 @@
 <?php slot('title') ?>
-  <?php echo 'About NoJam'; ?>
+  <?php echo __('About', null, 'messages').' NoJam'; ?>
 <?php end_slot() ?>
-<h1>About NoJam</h1>
+<h1><?php echo __('About', null, 'messages'); ?> NoJam</h1>
 <h2>Cupcake ipsum dolor sit amet</h2><p>Croissant jelly beans cookie brownie apple pie candy. Soufflé pie powder tart chupa chups tart muffin bonbon cookie. Icing pie marzipan biscuit jelly I love candy canes. I love dragée cheesecake brownie cake ice cream pie dessert. Cupcake dragée cheesecake faworki. Wafer lemon drops pastry. Cupcake applicake tiramisu cheesecake. Lollipop liquorice chocolate bar chupa chups applicake.</p>
 <p>Marshmallow lemon drops topping apple pie I love chocolate cheesecake toffee. Apple pie lollipop tootsie roll bear claw marshmallow. Jelly-o soufflé I love jelly beans. I love marzipan donut cake dessert dessert muffin tart. Cookie pastry apple pie croissant donut lollipop. Cheesecake tootsie roll wafer I love dragée macaroon I love oat cake I love. I love marshmallow jujubes gingerbread oat cake candy canes I love gummi bears powder.</p>
 <p>Tart dessert candy canes wafer sweet roll pie halvah. Brownie oat cake bonbon jujubes. Tiramisu applicake liquorice pie. Lollipop croissant cookie I love sesame snaps sweet. Soufflé caramels ice cream. Apple pie powder jelly-o jelly beans tart marshmallow candy canes. Lollipop cupcake pastry soufflé brownie cheesecake cotton candy halvah. Pie oat cake marshmallow cheesecake.</p>

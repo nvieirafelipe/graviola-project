@@ -30,10 +30,10 @@ ALTER TABLE nj_login_group_routing ADD CONSTRAINT nj_login_group_routing_sf_guar
 ALTER TABLE nj_menu_item_routing ADD CONSTRAINT nj_menu_item_routing_nj_section_routing_id_nj_section_routing_id FOREIGN KEY (nj_section_routing_id) REFERENCES nj_section_routing(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_notification ADD CONSTRAINT nj_notification_nj_trip_id_nj_trip_id FOREIGN KEY (nj_trip_id) REFERENCES nj_trip(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_notification ADD CONSTRAINT nj_notification_nj_stop_time_id_nj_stop_time_id FOREIGN KEY (nj_stop_time_id) REFERENCES nj_stop_time(id) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE nj_notification ADD CONSTRAINT nj_notification_nj_route_id_nj_route_id FOREIGN KEY (nj_route_id) REFERENCES nj_route(id);
+ALTER TABLE nj_notification ADD CONSTRAINT nj_notification_nj_route_id_nj_route_id FOREIGN KEY (nj_route_id) REFERENCES nj_route(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_notification ADD CONSTRAINT nj_notification_nj_notification_type_id_nj_notification_type_id FOREIGN KEY (nj_notification_type_id) REFERENCES nj_notification_type(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_notification_subscriber ADD CONSTRAINT nnnn_1 FOREIGN KEY (nj_route_id) REFERENCES nj_notification(nj_route_id) ON UPDATE CASCADE ON DELETE CASCADE;
-ALTER TABLE nj_notification_subscriber ADD CONSTRAINT nj_notification_subscriber_user_id_sf_guard_user_id FOREIGN KEY (user_id) REFERENCES sf_guard_user(id);
+ALTER TABLE nj_notification_subscriber ADD CONSTRAINT nj_notification_subscriber_user_id_sf_guard_user_id FOREIGN KEY (user_id) REFERENCES sf_guard_user(id) ON UPDATE CASCADE;
 ALTER TABLE nj_permission_menu_item_routing ADD CONSTRAINT nssi FOREIGN KEY (sf_guard_permission_id) REFERENCES sf_guard_permission(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_permission_menu_item_routing ADD CONSTRAINT nnni FOREIGN KEY (nj_menu_item_routing_id) REFERENCES nj_menu_item_routing(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE nj_route ADD CONSTRAINT nj_route_nj_transport_mode_id_nj_transport_mode_id FOREIGN KEY (nj_transport_mode_id) REFERENCES nj_transport_mode(id) ON UPDATE CASCADE ON DELETE CASCADE;

@@ -12,4 +12,5 @@
 <div class="column span-12 last">
   <h3 class="">Donec sed placerat nulla.</h3>
   <p class="">Donec sed ligula risus. Morbi quis eros mauris. Etiam malesuada dolor vel libero vehicula condimentum.</p>
+  <?php include_component('language', 'language') ?>
 </div>

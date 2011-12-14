@@ -1,7 +1,7 @@
 <?php slot('title') ?>
-  <?php echo 'Privacy Statement - NoJam'; ?>
+  <?php echo __('Privacy Statement', null, 'messages').' - NoJam'; ?>
 <?php end_slot() ?>
-<h1>Privacy Statement</h1>
+<h1><?php echo __('Privacy Statement', null, 'messages'); ?></h1>
 
 <!-- start slipsum code -->
 

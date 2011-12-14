@@ -1,7 +1,7 @@
 <?php slot('title') ?>
-  <?php echo 'Terms & Conditions - NoJam'; ?>
+  <?php echo __('Terms and Conditions', null, 'messages').' - NoJam'; ?>
 <?php end_slot() ?>
-<h1>Terms & Conditions</h1>
+<h1><?php echo __('Terms and Conditions', null, 'messages') ?></h1>
 
 <h2>Are you ready for the truth?</h2>
 <p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?</p>

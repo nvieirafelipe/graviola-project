@@ -26,10 +26,10 @@ class NjRouteForm extends BaseNjRouteForm
     $this->setValidator('name', new sfValidatorString(array('max_length' => 128, 'required' => true)));
     $this->setValidator('description', new sfValidatorString(array('max_length' => 128, 'required' => true)));
 
-    $this->embedRelation('NjTrips');
+//    $this->embedRelation('NjTrips');
   }
   
-  // Add new trip to the route
+  /* Add new trip to the route
   public function addTrip($number) 
   {
     $trip = new NjTrip();
@@ -140,4 +140,5 @@ class NjRouteForm extends BaseNjRouteForm
       }
     }
   }
+   */
 }

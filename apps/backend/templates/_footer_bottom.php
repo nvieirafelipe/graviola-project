@@ -16,6 +16,7 @@
     <p><a class="link medium block" href="<?php echo url_for('nj_section_routing'); ?>">Manage sections</a><br />
        <a class="link medium block" href="<?php echo url_for('nj_menu_item_routing'); ?>">Manage menu items</a><br />
        <a class="link medium block" href="<?php echo url_for('nj_login_group_routing'); ?>">Manage login-group routing</a></p>
+    <?php include_component('language', 'language') ?>
   </div>
   <div class="column span-4 last">
     <h3 class="">Data simulation.</h3>

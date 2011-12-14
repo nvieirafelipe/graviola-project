@@ -58,7 +58,8 @@ abstract class BaseNjNotificationSubscriber extends sfDoctrineRecord
 
         $this->hasOne('sfGuardUser', array(
              'local' => 'user_id',
-             'foreign' => 'id'));
+             'foreign' => 'id',
+             'onUpdate' => 'CASCADE'));
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $this->actAs($timestampable0);

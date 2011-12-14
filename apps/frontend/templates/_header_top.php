@@ -29,9 +29,9 @@
   </div>
 <?php } else { ?>
   <div class="welcome-message right last">
-    <p>New to NoJam?
+    <p><?php echo __('New to NoJam?', null, 'messages'); ?>
     <?php if (isset($routes['sf_guard_register'])): ?>
-      <a class="quiet" href="<?php echo url_for('@sf_guard_register'); ?>"><?php echo __('Join today!', null, 'sf_guard') ?></a>
+      <a class="quiet" href="<?php echo url_for('@sf_guard_register'); ?>"><?php echo __('Join today!', null, 'messages') ?></a>
     <?php endif; ?>
     </p>
     <?php if ($sf_request->getParameter('module') != 'sfGuardAuth'): ?>

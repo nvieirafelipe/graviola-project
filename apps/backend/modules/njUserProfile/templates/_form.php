@@ -49,6 +49,20 @@
         </td>
       </tr>
       <tr>
+        <th><?php echo $form['phone']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['phone']->renderError() ?>
+          <?php echo $form['phone'] ?>
+        </td>
+      </tr>
+      <tr>
+        <th><?php echo $form['cell']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['cell']->renderError() ?>
+          <?php echo $form['cell'] ?>
+        </td>
+      </tr>
+      <tr>          
         <th><?php echo $form['address']->renderLabel() ?></th>
         <td>
           <?php echo $form['address']->renderError() ?>

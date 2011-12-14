@@ -1,4 +1,4 @@
-<h1>Routes</h1>
+<h1><?php echo __('Routes', null, 'messages'); ?></h1>
 <div id="routes_filter" class="column span-5 append-1">
     <?php echo $nj_routesFormFilter['nj_transport_mode_id']->render(array('class'=>'select-box')); ?> <br />
     <ul id="routes" class="box">
@@ -17,7 +17,7 @@
 </div>
 
 <div id="notifications_filter" class="column span-6 push-1 last">
-  <h1>Notifications</h1>
+  <h1><?php echo __('Notifications', null, 'messages'); ?></h1>
   <?php if(!$nj_notifications->count()>0):?>
       <div id="notifications" class="box">
         <h2>Halo!</h2>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit>
+        <source>Language</source>
+        <target>Idioma</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Main Frontend</source>
+        <target>Página Principal</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New to NoJam?</source>
+        <target>Novo no NoJam?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Join today!</source>
+        <target>Cadastre-se hoje!</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Terms and Conditions</source>
+        <target>Termos e Condições</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Privacy Statement</source>
+        <target>Política de Privacidade</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Advertise</source>
+        <target>Anunciar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>About</source>
+        <target>Sobre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Contact</source>
+        <target>Contato</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Name</source>
+        <target>Nome</target>
+      </trans-unit>
+      <trans-unit>
+        <source>City</source>
+        <target>Cidade</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Message</source>
+        <target>Mensagem</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Submit</source>
+        <target>Submeter</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Routes</source>
+        <target>Rotas</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Notifications</source>
+        <target>Notificações</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Subscribe now</source>
+        <target>Assinar agora</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Unsubscribe</source>
+        <target>Cancelar assinatura</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Back</source>
+        <target>Voltar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Trip</source>
+        <target>Ida</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Return trip</source>
+        <target>Volta</target>
+      </trans-unit>
+
+      <!--Menu-->
+      <trans-unit>
+        <source>Transports</source>
+        <target>Transportes</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Search route</source>
+        <target>Pesquisar rota</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Panel Control</source>
+        <target>Painel de Controle</target>
+      </trans-unit>
+      <trans-unit>
+        <source>See dashboard</source>
+        <target>Ver dashboard</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

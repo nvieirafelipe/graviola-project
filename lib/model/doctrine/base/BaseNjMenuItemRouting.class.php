@@ -127,7 +127,9 @@ abstract class BaseNjMenuItemRouting extends sfDoctrineRecord
         $this->hasMany('sfGuardPermission', array(
              'refClass' => 'NjPermissionMenuItemRouting',
              'local' => 'nj_menu_item_routing_id',
-             'foreign' => 'sf_guard_permission_id'));
+             'foreign' => 'sf_guard_permission_id',
+             'onDelete' => 'CASCADE',
+             'onUpdate' => 'CASCADE'));
 
         $this->hasMany('NjPermissionMenuItemRouting', array(
              'local' => 'id',

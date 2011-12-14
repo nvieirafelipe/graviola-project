@@ -4,10 +4,10 @@
     <div class="box">
         <ul id="tabs" class="direction-tabs">
                 <li>
-                    <a href="#trip" class="link medium">Trip</a>
+                    <a href="#trip" class="link medium"><?php echo __('Trip', null, 'messages'); ?></a>
                 </li>
                 <li>
-                    <a href="#return-trip" class="link medium">Return trip</a>
+                    <a href="#return-trip" class="link medium"><?php echo __('Return trip', null, 'messages'); ?></a>
                 </li>
         </ul>
         <div class="tabContents">
@@ -27,17 +27,17 @@
 <!--- TEM QUE CARREGAR AQUI OS STOPS NO FORMATO lat;lng;textstop(pode ser html), lat;lng;textstop(pode ser html)--->
 <textarea style="display:none" class="path-stops"><?php print $stop_time_coords; ?></textarea>
 
-<div id="notifications_filter" class="column span-6 push-1 last">
+<div id="notifications_filter" class="column span-5 push-1 last">
   <?php if ($sf_user->isAuthenticated()) : ?>
     <?php if(!$subscriber): ?>
-      <a id="subscribe" class="link subscribe">Subscribe now</a>
-      <a id="unsubscribe" class="link unsubscribe" style="display:none;">Unsubscribe</a>
+      <a id="subscribe" class="link subscribe"><?php echo __('Subscribe now', null, 'messages'); ?></a>
+      <a id="unsubscribe" class="link unsubscribe" style="display:none;"><?php echo __('Unsubscribe', null, 'messages'); ?></a>
     <? else: ?>
-      <a id="subscribe" class="link subscribe" style="display:none;">Subscribe now</a>
+      <a id="subscribe" class="link subscribe" style="display:none;"><?php echo __('Subscribe now', null, 'messages'); ?></a>
       <a id="unsubscribe" class="link unsubscribe">Unsubscribe</a>
     <?php endif; ?>  
   <?php endif; ?>  
-  <h1>Notifications</h1>
+  <h1><?php echo __('Notifications', null, 'messages'); ?></h1>
   <?php if(!$nj_notifications->count()>0):?>
       <div id="notifications" class="box">
         <h2>Halo!</h2>
@@ -70,5 +70,5 @@
 </div>
 
 <div class="column span-24 last">
-    <a href="<?php echo url_for('njRoute/index') ?>" class="link">Back</a>
+    <a href="<?php echo url_for('njRoute/index') ?>" class="link"><?php echo __('Back', null, 'messages')?></a>
 </div>

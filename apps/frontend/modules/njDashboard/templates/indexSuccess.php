@@ -1,7 +1,7 @@
 <div class="column span-4">&nbsp;</div>
 <div class="column span-14">&nbsp;</div>
 <div class="column span-6 liquid-right last">
-  <h1>Notifications</h1>
+  <h1><?php echo __('Notifications', null, 'messages'); ?></h1>
   <?php if(!$nj_notifications->count()>0):?>
       <div id="notifications" class="box">
         <h2>Halo!</h2>

@@ -104,6 +104,9 @@ NjMenuItemRouting:
       local: nj_menu_item_routing_id
       foreign: sf_guard_permission_id
       foreignAlias: MenuItemsRoutings
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
 
 NjPermissionMenuItemRouting:
   connection: doctrine
@@ -680,6 +683,8 @@ NjNotification:
       onDelete: CASCADE
     NjRoute:
       foreignAlias: NjNotifications
+      onUpdate: CASCADE
+      onDelete: CASCADE
     NjTrip:
       foreignAlias: Njnotifications
       onUpdate: CASCADE
@@ -696,6 +701,8 @@ NjNotification:
       foreignAlias: NjNotificationsSubscribed
       class: sfGuardUser
       refClass: NjNotificationSubscriber
+      onUpdate: CASCADE
+      onDelete: NULL
 
 NjNotificationType:
   connection: doctrine
@@ -751,4 +758,6 @@ NjNotificationSubscriber:
       foreignAlias: NjNotificationSubscriber
       local: user_id
       foreign: id
+      onUpdate: CASCADE
+      onDelete: NULL
 ###################

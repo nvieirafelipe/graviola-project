@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit>
+        <source>First name</source>
+        <target>Nome</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Last name</source>
+        <target>Sobrenome</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Email address</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Username</source>
+        <target>Usuario</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Password</source>
+        <target>Senha</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is active</source>
+        <target>Ativo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is super admin</source>
+        <target>Super admin</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Last login</source>
+        <target>Último login</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Created at</source>
+        <target>Criado em</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Groups list</source>
+        <target>Grupos</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Permissions list</source>
+        <target>Permissões</target>
+      </trans-unit>
+      <trans-unit>
+        <source>is empty</source>
+        <target>vazio</target>
+      </trans-unit>
+      <trans-unit>
+        <source>from</source>
+        <target>de</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Choose an action</source>
+        <target>Escolha uma ação</target>
+      </trans-unit>
+      <trans-unit>
+        <source>go</source>
+        <target>ok</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Back to list</source>
+        <target>Voltar</target>
+      </trans-unit>
+      <trans-unit>
+        <source><![CDATA[An object with the same "%column%" already exist.]]></source>
+        <target><![CDATA[Um objeto com o mesmo "%column%" já existe.]]></target>
+      </trans-unit>
+      <trans-unit>
+        <source>Required.</source>
+        <target>Obrigatório.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>no result</source>
+        <target>sem resultado</target>
+      </trans-unit>
+      <trans-unit>
+        <source>result</source>
+        <target>resultado</target>
+      </trans-unit>
+      <trans-unit>
+        <source>results</source>
+        <target>resultados</target>
+      </trans-unit>
+            <trans-unit>
+        <source>yes or no</source>
+        <target>bai ala ez</target>
+      </trans-unit>
+      <trans-unit>
+        <source>yes</source>
+        <target>bai</target>
+      </trans-unit>
+      <trans-unit>
+        <source>no</source>
+        <target>ez</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

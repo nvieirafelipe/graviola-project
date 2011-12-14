@@ -257,6 +257,10 @@ nj_user_profile_update:
 
 
 # graviola - No Jam rules
+change_language:
+  url:   /change_language
+  param: { module: language, action: changeLanguage }
+  
 frontend:
   url:   ../../web/
   param: { module: main, action: index }
