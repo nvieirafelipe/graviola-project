@@ -13,7 +13,7 @@
 <!--Welcome message block-->
 <?php if ($sf_user->isAuthenticated()) { ?>
   <div class="right last">
-    Welcome, 
+    <?php echo __('Welcome', null, 'messages'); ?>, 
     <a href="<?php echo url_for('njUserProfile/show?id='.$sf_user->getProfile()); ?>" class="link medium">
       <?php if($sf_user->getProfile()->getPicture()): ?>
         <?php echo image_tag(public_path(sfConfig::get('app_uploads_profile_pictures').$sf_user->getProfile()->getPicture()), 
@@ -24,7 +24,7 @@
     <strong><?php echo $sf_user->getUsername(); ?></a></strong>
       <ul class="dropdown-menu column right">
         <ul>
-            <li><a href="<?php echo url_for('njUserProfile/edit?id='.$sf_user->getProfile()); ?>" class="link small edit_profile" title="Edit Profile">Edit Profile</a></li>
+            <li><a href="<?php echo url_for('njUserProfile/edit?id='.$sf_user->getProfile()->getId()); ?>" class="link small edit_profile" title="<?php echo __('Edit Profile', null, 'messages'); ?>"><?php echo __('Edit Profile', null, 'messages'); ?></a></li>
             <li><?php echo link_to2('Logout', 'sf_guard_signout', array(), array('class'=>'link small logout', 'title' => 'Log Out')); ?></li>
         </ul>
       </ul>

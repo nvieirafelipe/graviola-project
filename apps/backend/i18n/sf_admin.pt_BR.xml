@@ -98,6 +98,10 @@
         <source>no</source>
         <target>ez</target>
       </trans-unit>
+      <trans-unit>
+        <source>Show</source>
+        <target>Mostrar</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

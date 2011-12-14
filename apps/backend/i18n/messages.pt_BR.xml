@@ -82,7 +82,33 @@
         <source>Return trip</source>
         <target>Volta</target>
       </trans-unit>
-
+      <trans-unit>
+        <source>Edit Profile</source>
+        <target>Editar Perfil</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Welcome</source>
+        <target>Bem vindo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Data simulation</source>
+        <target>Simulação de dados</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Would like to test our powerful application with a significant amount of data? So</source>
+        <target>Você gostaria de testar nossa poderosa aplicação com uma quantidade significante de dados? Então</target>
+      </trans-unit>
+      <trans-unit>
+        <source>to enter simulation data in the system</source>
+        <target>para inserir dados simulados no sistema</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Would like to configure the application ?</source>
+        <target>Gostaria de configurar a aplicação ?</target>
+      </trans-unit>
+      
+       
+      
       <!--Menu-->
       <trans-unit>
         <source>Transports</source>
@@ -106,16 +132,86 @@
       </trans-unit>
       <trans-unit>
         <source>Manage users</source>
-        <target>Administrar usuários</target>
+        <target>Admin. usuários</target>
       </trans-unit>
       <trans-unit>
         <source>Manage groups</source>
-        <target>Administrar grupos</target>
+        <target>Admin. grupos</target>
       </trans-unit>
       <trans-unit>
         <source>Manage permissions</source>
-        <target>Administrar permissões</target>
+        <target>Admin. permissões</target>
       </trans-unit>
+      <trans-unit>
+        <source>Manage notification type</source>
+        <target>Admin. tipos de notificação</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage notifications</source>
+        <target>Admin. notificações</target>
+      </trans-unit>
+      <trans-unit>
+        <source>See reports</source>
+        <target>Ver relatórios</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage calendars</source>
+        <target>Admin. calendários</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage transport mode</source>
+        <target>Admin. modos de transporte</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage vehicles</source>
+        <target>Admin. veículos</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage stops</source>
+        <target>Admin. paradas</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage trips</source>
+        <target>Admin. viagens</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage routes</source>
+        <target>Admin. rotas</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage sections</source>
+        <target>Admin. seções</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage menu items</source>
+        <target>Admin. itens de menu</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Manage login-group routing</source>
+        <target>Admin. rotas para login/grupo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Created at</source>
+        <target>Criado em</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Updated at</source>
+        <target>Atualizado em</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Number</source>
+        <target>Número</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Description</source>
+        <target>Descrição</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Detail</source>
+        <target>Detalhe</target>
+      </trans-unit>
+
+
     </body>
   </file>
 </xliff>

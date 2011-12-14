@@ -82,6 +82,15 @@
         <source>Return trip</source>
         <target>Volta</target>
       </trans-unit>
+      <trans-unit>
+        <source>Edit Profile</source>
+        <target>Editar Perfil</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Welcome</source>
+        <target>Bem vindo</target>
+      </trans-unit>
+
 
       <!--Menu-->
       <trans-unit>
